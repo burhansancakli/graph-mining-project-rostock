@@ -1,0 +1,11 @@
+Werewolf cluster comparison — mecklenburg
+============================================================
+
+Algorithm: Louvain
+  Community 3 (size=45):
+  Top keywords: werewolf, Werwolf, Verwandlung, Werwolf, Mahlzeit, The ample meal, Die reichliche Mahlzeit, Riemen, Selbstverwandlung in die Wolfsgestalt durch Zaubermittel
+
+Algorithm: Girvan-Newman
+  Community 9 (size=6):
+  Top keywords: werewolf, Werwolf, Mahlzeit, The ample meal, Die reichliche Mahlzeit, Verwandlung, Werwolf
+
