@@ -15,6 +15,7 @@ from karateclub import BigClam
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 from collections import defaultdict
 
 from graph_utils import load_graph, DATASET
@@ -22,7 +23,7 @@ from graph_utils import load_graph, DATASET
 # BigCLAM is also slow on large graphs — use filtered subgraph
 MIN_WEIGHT_BIGCLAM = 3
 MAX_NODES_BIGCLAM = 500
-N_COMMUNITIES = 16   # set to same as Louvain result for fair comparison
+N_COMMUNITIES = 16   # latent embedding dimension; final output communities may be fewer
 
 
 def run_bigclam():
@@ -60,7 +61,14 @@ def run_bigclam():
     model.fit(G_relabeled)
     memberships = model.get_memberships()  # dict: node_int -> list of community IDs
 
-    print(f"  Communities requested: {N_COMMUNITIES}")
+    print(f"  Communities requested: {N_COMMUNITIES} (latent embedding dimension)")
+    community_ids = sorted({int(c) for c in memberships.values()})
+    print(f"  Communities produced by argmax: {len(community_ids)}")
+    if len(community_ids) < N_COMMUNITIES:
+        print(
+            f"  Note: karateclub BigCLAM assigns one winning community ID per node via argmax, "
+            f"so fewer than {N_COMMUNITIES} IDs can appear even when the embedding has {N_COMMUNITIES} dimensions."
+        )
 
     # ── Translate back to original node IDs ───────────────────────────────────
     # memberships_orig: original_node_id -> list of community IDs
@@ -120,39 +128,50 @@ def run_bigclam():
     # ── Visualization ─────────────────────────────────────────────────────────
     # For overlapping communities: color by PRIMARY community (most members → node)
     primary_comm = {}
-    for node in G.nodes():
+    for node in G_relabeled.nodes():
         orig = id_to_original.get(node, node)
         comms = memberships_orig.get(orig, [0])
         primary_comm[node] = comms[0] if comms else 0
 
-    plt.figure(figsize=(12, 9))
+    fig, ax = plt.subplots(figsize=(12, 9))
     pos = nx.spring_layout(G_relabeled, k=0.5, seed=42)
-    colors = plt.cm.tab20([primary_comm.get(n, 0) % 20 / 20 for n in G_relabeled.nodes()])
+
+    cmap = plt.get_cmap("tab20")
+    colors = [cmap(primary_comm.get(n, 0) % 20) for n in G_relabeled.nodes()]
     node_sizes = [40 + degree.get(id_to_original.get(n, n), 1) * 5 for n in G_relabeled.nodes()]
 
     # Nodes with overlap drawn with a ring border
     overlap_nodes = [n for n in G_relabeled.nodes()
                      if len(memberships_orig.get(id_to_original.get(n, n), [])) > 1]
 
-    nx.draw_networkx_edges(G_relabeled, pos, alpha=0.15, width=0.5)
+    nx.draw_networkx_edges(G_relabeled, pos, alpha=0.15, width=0.5, ax=ax)
     nx.draw_networkx_nodes(G_relabeled, pos, node_color=colors,
-                           node_size=node_sizes, edgecolors="black", linewidths=0.3)
+                           node_size=node_sizes, edgecolors="black", linewidths=0.3, ax=ax)
     if overlap_nodes:
         nx.draw_networkx_nodes(G_relabeled, pos, nodelist=overlap_nodes,
                                node_color="none", node_size=[node_sizes[n] + 20 for n in overlap_nodes],
-                               edgecolors="red", linewidths=2.0)
+                               edgecolors="red", linewidths=2.0, ax=ax)
 
     label_ids = sorted(G_relabeled.nodes(), key=lambda n: -degree.get(id_to_original.get(n, n), 0))[:30]
     nx.draw_networkx_labels(G_relabeled, pos,
                             labels={n: keyword_text.get(id_to_original.get(n, n), str(n)) for n in label_ids},
-                            font_size=7)
+                            font_size=7, ax=ax)
 
-    plt.title(f"BigCLAM (overlapping) — {DATASET}\n"
-              f"{N_COMMUNITIES} communities | red ring = multi-community node", fontsize=12)
-    plt.axis("off")
-    plt.tight_layout()
+    unique_primary_communities = sorted({primary_comm[n] for n in G_relabeled.nodes()})
+    legend_handles = [
+        Line2D([0], [0], marker='o', linestyle='', markerfacecolor=cmap(comm % 20),
+               markeredgecolor='black', markersize=8, label=f'Community {comm}')
+        for comm in unique_primary_communities
+    ]
+    ax.legend(handles=legend_handles, title='Community colors', loc='center left',
+              bbox_to_anchor=(1.0, 0.5), frameon=True)
+
+    ax.set_title(f"BigCLAM (overlapping) — {DATASET}\n"
+                 f"{N_COMMUNITIES} communities | red ring = multi-community node", fontsize=12)
+    ax.set_axis_off()
+    plt.tight_layout(rect=(0, 0, 0.84, 1))
     out = f"bigclam_{DATASET}.png"
-    plt.savefig(out, dpi=150)
+    fig.savefig(out, dpi=150, bbox_inches='tight')
     print(f"\n  Saved: {out}")
 
     return {
