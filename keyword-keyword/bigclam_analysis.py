@@ -50,6 +50,11 @@ def run_bigclam():
     G_relabeled = nx.relabel_nodes(G, {n: i for i, n in enumerate(node_list)})
     id_to_original = {i: n for i, n in enumerate(node_list)}
 
+    # Some karateclub versions return a single community id instead of a list.
+    # Add self-loops to satisfy the estimator's expectations.
+    for node in list(G_relabeled.nodes()):
+        G_relabeled.add_edge(node, node)
+
     # ── Run BigCLAM ───────────────────────────────────────────────────────────
     model = BigClam(dimensions=N_COMMUNITIES)
     model.fit(G_relabeled)
@@ -59,10 +64,22 @@ def run_bigclam():
 
     # ── Translate back to original node IDs ───────────────────────────────────
     # memberships_orig: original_node_id -> list of community IDs
-    memberships_orig = {
-        id_to_original[node_int]: comms
-        for node_int, comms in memberships.items()
-    }
+    def _normalize_memberships(raw_memberships):
+        normalized = {}
+        for node_int, comms in raw_memberships.items():
+            if isinstance(comms, (list, tuple, set)):
+                comms_list = [int(c) for c in comms]
+            else:
+                try:
+                    iter(comms)
+                except TypeError:
+                    comms_list = [int(comms)]
+                else:
+                    comms_list = [int(c) for c in comms]
+            normalized[id_to_original[node_int]] = comms_list
+        return normalized
+
+    memberships_orig = _normalize_memberships(memberships)
 
     # Build community -> members mapping (overlapping)
     comm_members = defaultdict(list)
