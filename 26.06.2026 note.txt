@@ -1,0 +1,205 @@
+GRAPH MINING
+
+Large graph of data.
+
+digitize and analyze, big large data of legends and stuff.
+
+200 nodes, 600 edges.
+
+We're focusing on:
+- Community detection algorithms
+- social network analyzers
+
+
+
+(dblp metada on fscienditifc stuff)
+
+Graph based analyises,
+possible research questions
+
+- are there cliques in the network that is groups where everyone knows each other
+- who is the most connected and contributes most to group cohesion
+- are there frequently occuring patterns, are they naturally aoccuring or artifiically created?
+- can recommendations be generated based on my connections
+- so the questions depend heavily on the social nework and the specific objective.
+
+
+Textbook is usually in our case: leskovec rajaraman ullman mining of massive datasets cambridge university press 2020. Even videos for certain lessons are available for free.
+
+
+
+
+
+
+a graph consists of vertices (nodes) and edges.
+
+types of graphs:
+(... function)
+- undirected edges/graphs
+- directed edges/graphs
+
+weight function
+- unlabked/untyped edges
+- labeled/typed edges
+
+- unlabled/untyped nodes
+- labeled/typed nodes
+
+- connected graphs
+- disconnected graphs
+
+- cyclic graphs
+- trees, or acyclic connected graph
+
+- multigraphs
+- graphs with loops
+
+(some special graph structures)
+- planar graphs
+- complete graphs
+- bipartite graphs
+
+
+subgraphs (important)
+walks and path in graph (important)
+
+representation of geraphs in data structures (pretty important):
+vraitans:
+- global edge list
+- local edge lists
+- adjacaency matrices
+
+graph foundatitons are stuff you should already have a basic knowledge about
+
+
+
+
+
+Complex networks:
+- technological networks: communications systems, including internet
+- biological networks: interaction betwen genes, neural netwoks, spread of diseases
+- culturual networks: literature, language families
+- social networks: family friends, email or group chat
+
+ego cnetric networks: simplest form of socila network, just one guy and his relationship with others. central node is ego, other nodes are called alter. For each alter ndode, determine attional contacts, alter and add them. For example kevin bacon.
+
+
+
+Where do releationsships come from? 
+data sources:
+- friend and doncatct list from social networks
+    - 155 500 contacts per person
+    - via api
+    - web scraping
+    - folowers and subscribes
+    - provacy: usually not accessible
+- manually collected
+    - talkign to people
+    - reconstructing from personal expereince
+Wossidia data source was pretty important for poems and songs of mecklenburg vorpommern over the last 200 years, and priests and stuff.
+
+It is NOT our task to collect the data for this lecture, it is our task to use it.
+
+socio-centric networks (facebook z.B):
+Key questions:
+- improant relatinshipos
+- discovery of hiercahcila structes 
+- explanations for the structure and changes of individual geaphs and ...
+
+Key stuff:
+- rank distribution
+- central individuals
+- topology of lcoal networks
+- ***community structure***
+
+questions
+-local topology
+-closeness centrality
+-degree distribution
+
+
+herausforderungen:
+- data is too big: data sampling is needed. maybe take only 2 layers, do not get the alter of alter of alter.
+- data is highly dynamic
+
+
+
+
+
+
+
+
+NetworkX is a good python Library, we use it often.
+
+when there is a Directed Graph, there will be Clustering (that is, communities).
+
+How to find communties? we will work with undirected (unweighted) networks.
+
+Methods for clustering methods:
+- Random walker
+- Link propagation
+- Modularity maximizing: agglomerative, divisive.
+Another criteria is ovlerapping:
+- caclulate initisal set on nonoverlapping clusters
+- try two enlarge clusters starting from intercluster edges
+(girvan newman gets explained in detail, the others left to be self studied. (I think it's unimportant))
+
+We see how Grivan-Newman as a clustering method works. 
+- An example: zachary's karate club. 
+- But how to compute betweenness? Breadth first algorithm.
+- how to select the number of clusters? Using Modularity Q. Q between 0.3-0.7 we mostly use this for initial graph structure, you can use this maybr.
+- nowadays there are agglomerative methods like louvain and leiden, they are somehow more efficient.
+
+
+
+Big clam is an example for overlappong communities
+
+
+
+
+
+
+
+
+
+
+
+About your project:
+
+Mainly about community detection but for a real dataset
+You are free to study anything else related to graphs, graph structures, large graphs.
+For that, we have some real datasets:
+- Wossidia- Apply girwan newman, louvain, bigclam using apache spark and zeppelin on rmdf cluster.
+- search.iseebel.eu. witches and werewolves stories. it is uploaded into studip. cooccurence means which motives cooccur in the stories. story is the central node, there are nodes connected to it such as place, people, motive.
+
+- panama papers: people trying to avoid paying taxes.
+- frameworks which may help:
+    - graphx
+    - networkx
+    - karateclub
+- tools for visualizing (they also have some algorithms in that, so you could do graph mining with those as well.)
+    - gephi
+    - cytoscape
+    - networkx has also some functionality for small graphs
+
+snap.stanford.edu/data/index.html there are some graph and network data there as well.
+
+https://www.degruyterbrill.com/de/document/doi/10.1515/fabula-2023-0006/html this is holger meyer's work about isebel witches and werewolves.
+
+You can work on notebook, you are not forced to use apache spark or zeppelin for that.
+
+COMMUNITY DETECTION SHOULD BE THE CENTRAL IDEA. you could try implementing your own community detection algorithm, or lovieman or other algorithm via networkx. play aroudn with community measures, and other measures.
+
+
+implement one of the algorithms by your own
+implement one of the algorithms using apache graphx
+investigate modularity
+apply community detection to story data and their man motives (keywords)?
+what diference makes overlapping
+
+datasets are here:
+//bdgtm/data/graphs
+- wossidia-werewolf-nodes.csv wossidia-werewolf-edges.csv
+- witches-werewolf-nodes.csv witches-werewolf-edges.csv
+- verhalenbank-nodes.csv verhalenbank-edges.csv
+- dh11-nodes.csv dh11-edges.csv (from SNAP)
