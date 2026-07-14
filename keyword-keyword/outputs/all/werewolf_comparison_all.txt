@@ -1,0 +1,14 @@
+Werewolf cluster comparison -- all
+============================================================
+
+Algorithm: Louvain
+  Community 1 (size=11521)
+  Top keywords: dood, witch, devil, ghost, sterven, man, church, vrouw.
+
+Algorithm: Girvan-Newman
+  Werewolf community not identified
+
+Algorithm: BigCLAM
+  Community 0 (size=500)
+  Top keywords: church, devil, witch, dragon, ghost, time, stille, træffe
+

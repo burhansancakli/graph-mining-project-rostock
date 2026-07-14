@@ -1,0 +1,14 @@
+Werewolf cluster comparison -- netherlands
+============================================================
+
+Algorithm: Louvain
+  Community 0 (size=2399)
+  Top keywords: witch, devil, vrouw., toverij, kind, toveren(?), ziek, betoveren
+
+Algorithm: Girvan-Newman
+  Werewolf community not identified
+
+Algorithm: BigCLAM
+  Community 0 (size=500)
+  Top keywords: vrouw., devil, dood, man, huis, angst, nacht, sterven
+

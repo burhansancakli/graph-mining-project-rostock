@@ -1,0 +1,15 @@
+Werewolf cluster comparison -- mecklenburg
+============================================================
+
+Algorithm: Louvain
+  Community 8 (size=24)
+  Top keywords: werewolf, The ample meal, Die reichliche Mahlzeit, Mahlzeit, Riemen, Fohlen, Use of the wolf strap by children, Verwandlung in einen Hund
+
+Algorithm: Girvan-Newman
+  Community 6 (size=6)
+  Top keywords: Mensch, on human beings, An Menschen, Tiere, Tiere: Sagen, Märchen etc., werewolf
+
+Algorithm: BigCLAM
+  Community 2 (size=372)
+  Top keywords: dead, Tote, Tiersage, tragen, Taube, Fachliteratur, Berg, unschuldig
+

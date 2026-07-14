@@ -1,0 +1,12 @@
+Werewolf cluster comparison -- iceland
+============================================================
+
+Algorithm: Louvain
+  Werewolf community not identified
+
+Algorithm: Girvan-Newman
+  Werewolf community not identified
+
+Algorithm: BigCLAM
+  Werewolf community not identified
+

@@ -1,0 +1,38 @@
+{
+  "werewolf": {
+    "label": "Werewolf / Werwolf / Weerwolf / Varulv",
+    "patterns": [
+      "werwolf", "werewolf", "weerwolf", "weerwolv", "varulv",
+      "wolfsriem", "wolfsgordel", "wolfsvel", "wolfshuid", "wolfsgestalt",
+      "wolfswierdel", "wolfsschwanz"
+    ]
+  },
+  "devil": {
+    "label": "Devil / Teufel / Duivel / Djaevel",
+    "patterns": ["teufel", "duivel", "djaevel", "djævel", "devil", "satan", "beelzebub"]
+  },
+  "ghost": {
+    "label": "Ghost / Geist / Spook / Spoegelse",
+    "patterns": ["gespenst", "geist", "spook", "spook", "spoegelse", "spøgelse", "ghost", "revenant", "haunt"]
+  },
+  "treasure": {
+    "label": "Treasure / Schatz / Schat / Skat",
+    "patterns": ["schatz", "schat ", "schat,", "buried treasure", "treasure", "skat"]
+  },
+  "dragon": {
+    "label": "Dragon / Drache / Draak / Drage",
+    "patterns": ["drache", "draak", "drage", "dragon"]
+  },
+  "dwarf": {
+    "label": "Dwarf / Zwerg / Dwerg",
+    "patterns": ["zwerg", "dwerg", "dwarf"]
+  },
+  "witch": {
+    "label": "Witch / Hexe / Heks",
+    "patterns": ["hexe", "heks", "witch", "sorceress"]
+  },
+  "church": {
+    "label": "Church / Kirche / Kerk / Kirke",
+    "patterns": ["kirche", "kerk", "kirke", "church"]
+  }
+}

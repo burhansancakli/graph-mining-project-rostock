@@ -6,8 +6,24 @@ requires-python = ">=3.12,<3.13"
 dependencies = [
     "matplotlib",
     "python-louvain",
-    "karateclub",
+    "rapidfuzz",
+    "scikit-learn",
 ]
+
+# karateclub (BigCLAM) is intentionally NOT in the main dependency list.
+# Its own declared requirements (numpy<1.23, networkx<2.7, pandas<=1.3.5)
+# have no prebuilt wheels for Python 3.12, so a normal `pip install -e .`
+# would try to satisfy them and either fail to build from source or force
+# a pip dependency-resolver conflict against the modern numpy/networkx the
+# rest of this project uses. karateclub's actual code runs fine with
+# current numpy/networkx -- only its own pins are stale. Install it
+# separately, after the main project deps, with:
+#
+#   pip install karateclub --no-deps
+#   pip install gensim decorator tqdm python-Levenshtein pygsp
+#
+# See keyword-keyword/README.md, "Installing BigCLAM's dependency", for
+# the full explanation. This has been tested and confirmed working.
 
 [build-system]
 requires = ["setuptools>=61"]

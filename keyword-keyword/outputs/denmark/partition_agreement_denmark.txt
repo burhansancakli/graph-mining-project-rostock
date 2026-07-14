@@ -1,0 +1,17 @@
+Quantitative partition agreement -- denmark
+============================================================
+
+Louvain vs Girvan-Newman
+  Shared nodes: 277
+  Adjusted Rand Index: 0.0568  (1.0 = identical grouping, ~0 = random)
+  Normalized Mutual Information: 0.2735
+
+Jaccard best-match table (Louvain community -> closest Girvan-Newman community)
+------------------------------------------------------------
+  Louvain comm   1 (size=1555) best match = GN comm 2 (Jaccard=0.037)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   4 (size=1544) best match = GN comm 2 (Jaccard=0.021)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   0 (size= 943) best match = GN comm 2 (Jaccard=0.037)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   6 (size= 855) best match = GN comm 2 (Jaccard=0.024)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   5 (size= 710) best match = GN comm 2 (Jaccard=0.013)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   3 (size= 228) best match = GN comm 6 (Jaccard=0.004)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   2 (size=   2) best match = GN comm None (Jaccard=0.0)  <-- no good match in GN (algorithm-specific)
