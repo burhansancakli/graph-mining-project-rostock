@@ -1,4 +1,6 @@
 {
+  "_readme": "Fiecare 'concept' e un motiv tematic canonic. 'patterns' e o listă de substring-uri (case-insensitive, aplicate pe textul normalizat: fără diacritice, lowercase) care, dacă apar în cuvântul-cheie, îl leagă de acel concept — indiferent din ce regiune/limbă vine. Un keyword se leagă de PRIMUL concept care se potrivește. Adaugă concepte noi copiind formatul de mai jos; nu trebuie schimbat cod, doar acest fișier.",
+
   "werewolf": {
     "label": "Werewolf / Werwolf / Weerwolf / Varulv",
     "patterns": [

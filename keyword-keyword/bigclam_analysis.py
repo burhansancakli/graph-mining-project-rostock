@@ -36,7 +36,6 @@ from karateclub.estimator import Estimator  # noqa: F401  (BigClam needs this im
 from karateclub.community_detection.overlapping.bigclam import BigClam
 
 import matplotlib
-
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -46,10 +45,11 @@ from graph_utils import load_graph, DATASET, PROJECT_ROOT
 OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"
 
 # BigCLAM is also slow on large graphs -- use a filtered, unweighted subgraph
-MIN_WEIGHT_BIGCLAM = 3
+MIN_WEIGHT_BIGCLAM = 1.0  # lowered from 3: see graph_utils.ENABLE_FRACTIONAL_WEIGHTING --
+                          # edge weights are usually well under 1 per contributing story now
 MAX_NODES_BIGCLAM = 500
-N_COMMUNITIES = 16  # latent embedding dimension; the number of communities that
-# actually end up populated after argmax can be smaller (see above)
+N_COMMUNITIES = 16   # latent embedding dimension; the number of communities that
+                     # actually end up populated after argmax can be smaller (see above)
 
 WEREWOLF_FALLBACK_TERMS = {"werwolf", "werewolf", "weerwolf", "varulv", "werwölfe", "verwandlung"}
 
@@ -110,9 +110,9 @@ def run_bigclam(dataset: str = None, save_png: bool = True):
 
     print(f"  Communities requested: {N_COMMUNITIES} (latent embedding dimension)")
     community_ids = sorted({int(c) for c in memberships.values()} if
-                           not any(isinstance(c, (list, tuple, set)) for c in memberships.values())
-                           else {int(x) for c in memberships.values() for x in
-                                 (c if isinstance(c, (list, tuple, set)) else [c])})
+                            not any(isinstance(c, (list, tuple, set)) for c in memberships.values())
+                            else {int(x) for c in memberships.values() for x in
+                                  (c if isinstance(c, (list, tuple, set)) else [c])})
     print(f"  Communities actually populated (argmax): {len(community_ids)}")
     if len(community_ids) < N_COMMUNITIES:
         print(f"  Note: karateclub's BigCLAM here assigns one winning community per node via "
@@ -227,5 +227,4 @@ def _draw_png(G, G_relabeled, keyword_text, memberships_orig, id_to_original, de
 
 if __name__ == "__main__":
     import sys
-
     run_bigclam(sys.argv[1] if len(sys.argv) > 1 else None)

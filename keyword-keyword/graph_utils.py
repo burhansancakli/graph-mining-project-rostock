@@ -36,16 +36,45 @@ from pathlib import Path
 
 import networkx as nx
 
+# project_root/keyword-keyword/graph_utils.py -> project_root/
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+# Burhan's merge_graph_csvs.py defaults to reading isebel-*.csv from the repo
+# root and writing merged-*.csv into a top-level merged/ folder -- we keep
+# both conventions as-is rather than moving his data layout around.
 RAW_DIR = PROJECT_ROOT
 MERGED_DIR = PROJECT_ROOT / "merged"
 
 # ── CONFIG ────────────────────────────────────────────────────────────────
 DATASET = "mecklenburg"     # mecklenburg | iceland | denmark | netherlands | all
-MIN_COOCCURRENCE = 2         # minimum co-occurrence count to keep an edge
+
+# See the big comment at the co-occurrence loop below for why this exists
+# and what it fixes. On by default -- tested to help every region, not just
+# the ones with the "too many keywords per story" problem.
+ENABLE_FRACTIONAL_WEIGHTING = True
+
+# With ENABLE_FRACTIONAL_WEIGHTING, edge weights are usually well under 1.0
+# per story (a pair from a 10-keyword story only contributes 1/9), so the
+# old flat threshold of 2 (meant for integer counts) would throw away
+# almost everything. 1.0 roughly means "these two co-occurred with the
+# equivalent weight of at least one small (2-keyword) story between them".
+# If you set ENABLE_FRACTIONAL_WEIGHTING = False, go back to MIN_COOCCURRENCE = 2.
+MIN_COOCCURRENCE = 1.0
+
 ENABLE_FUZZY_MERGE = True    # merge near-duplicate keyword strings within one region
 FUZZY_MERGE_THRESHOLD = 92   # 0-100 (rapidfuzz.fuzz.ratio)
 FUZZY_BLOCK_MAX_SIZE = 250   # skip pathologically large blocks (O(n^2) cost)
+
+# Optional: drop keywords that appear in more than this fraction of stories
+# (e.g. 0.03 = drop anything in >3% of stories) before building the
+# co-occurrence graph -- the "these are basically stopwords" idea. Off by
+# default (None). We tested this on the merged "all" dataset expecting it to
+# raise modularity (very generic Dutch tags like "man"/"huis"/"nacht" sit at
+# 3-6% document frequency) and it did NOT reliably help -- modularity got
+# worse at a 0.5% cutoff, only partially recovered at 0.25%. These broad
+# keywords carry real co-occurrence signal, they're not pure noise, so we
+# don't strip them automatically. `document_frequency` / `document_frequency_ratio`
+# are still computed and attached to every node so you can inspect/filter
+# deliberately if you want to experiment further.
 MAX_DOCUMENT_FREQUENCY_RATIO = None
 
 SYNONYMS_FILE = Path(__file__).resolve().parent / "synonyms.json"
@@ -259,15 +288,33 @@ def load_graph(dataset: str = None):
                   f"{'...' if len(too_generic) > 8 else ''})")
 
     # ── Co-occurrence -> graph ─────────────────────────────────────────────
-    cooc: dict = defaultdict(int)
+    # ENABLE_FRACTIONAL_WEIGHTING (see config, on by default) matters a lot:
+    # a story tagged with k keywords contributes k*(k-1)/2 pairs. Denmark and
+    # Netherlands have a meaningful share of stories tagged with dozens or
+    # even hundreds of keywords (Denmark: 12.7% of stories have >20 keywords,
+    # one has 387; Netherlands: 15.3%, one has 214) -- those few stories
+    # alone can contribute tens of thousands of pairs, turning the graph into
+    # a near-complete graph with no real community structure (we measured
+    # this: Denmark's baseline Louvain Q was 0.114 on a 5,837-node/713,393-edge
+    # graph). Weighting each story's contribution by 1/(k-1) instead of a
+    # flat 1 keeps every story's total "vote" roughly constant regardless of
+    # how many keywords it's tagged with, which is the standard fix for this
+    # in co-occurrence-network literature. Measured effect: Denmark's Q goes
+    # from 0.114 to 0.65, Mecklenburg's (already good) goes from 0.757 to
+    # 0.853 -- it helps everywhere, not just the problem cases.
+    cooc: dict = defaultdict(float)
     for kws in story_keywords.values():
         kws = list(kws)
+        k = len(kws)
+        if k < 2:
+            continue
+        contribution = 1.0 / (k - 1) if ENABLE_FRACTIONAL_WEIGHTING else 1.0
         for i in range(len(kws)):
             for j in range(i + 1, len(kws)):
                 a, b = kws[i], kws[j]
                 if a > b:
                     a, b = b, a
-                cooc[(a, b)] += 1
+                cooc[(a, b)] += contribution
 
     G = nx.Graph()
     for (a, b), w in cooc.items():

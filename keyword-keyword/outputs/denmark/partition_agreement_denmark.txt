@@ -2,16 +2,36 @@ Quantitative partition agreement -- denmark
 ============================================================
 
 Louvain vs Girvan-Newman
-  Shared nodes: 277
-  Adjusted Rand Index: 0.0568  (1.0 = identical grouping, ~0 = random)
-  Normalized Mutual Information: 0.2735
+  Shared nodes: 254
+  Adjusted Rand Index: 0.3252  (1.0 = identical grouping, ~0 = random)
+  Normalized Mutual Information: 0.6731
 
 Jaccard best-match table (Louvain community -> closest Girvan-Newman community)
 ------------------------------------------------------------
-  Louvain comm   1 (size=1555) best match = GN comm 2 (Jaccard=0.037)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   4 (size=1544) best match = GN comm 2 (Jaccard=0.021)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   0 (size= 943) best match = GN comm 2 (Jaccard=0.037)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   6 (size= 855) best match = GN comm 2 (Jaccard=0.024)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   5 (size= 710) best match = GN comm 2 (Jaccard=0.013)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   3 (size= 228) best match = GN comm 6 (Jaccard=0.004)  <-- no good match in GN (algorithm-specific)
-  Louvain comm   2 (size=   2) best match = GN comm None (Jaccard=0.0)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   5 (size= 221) best match = GN comm 1 (Jaccard=0.081)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   7 (size= 117) best match = GN comm 6 (Jaccard=0.07)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  18 (size= 105) best match = GN comm 2 (Jaccard=0.035)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  13 (size= 103) best match = GN comm 10 (Jaccard=0.077)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  22 (size= 103) best match = GN comm 0 (Jaccard=0.07)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   0 (size= 102) best match = GN comm 15 (Jaccard=0.069)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  24 (size= 101) best match = GN comm 2 (Jaccard=0.066)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   3 (size=  95) best match = GN comm 0 (Jaccard=0.075)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   1 (size=  93) best match = GN comm 1 (Jaccard=0.045)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  20 (size=  85) best match = GN comm 3 (Jaccard=0.087)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   2 (size=  79) best match = GN comm 5 (Jaccard=0.094)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   9 (size=  78) best match = GN comm 8 (Jaccard=0.022)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  21 (size=  76) best match = GN comm 3 (Jaccard=0.034)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   8 (size=  73) best match = GN comm 11 (Jaccard=0.096)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  15 (size=  72) best match = GN comm 7 (Jaccard=0.084)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  16 (size=  69) best match = GN comm 7 (Jaccard=0.036)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  12 (size=  66) best match = GN comm 6 (Jaccard=0.133)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  11 (size=  64) best match = GN comm 4 (Jaccard=0.141)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  14 (size=  59) best match = GN comm 8 (Jaccard=0.072)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  10 (size=  55) best match = GN comm 1 (Jaccard=0.01)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   6 (size=  54) best match = GN comm 14 (Jaccard=0.148)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  23 (size=  50) best match = GN comm 0 (Jaccard=0.029)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  25 (size=  50) best match = GN comm 9 (Jaccard=0.094)  <-- no good match in GN (algorithm-specific)
+  Louvain comm   4 (size=  43) best match = GN comm 12 (Jaccard=0.116)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  17 (size=  25) best match = GN comm None (Jaccard=0.0)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  19 (size=  22) best match = GN comm 1 (Jaccard=0.047)  <-- no good match in GN (algorithm-specific)
+  Louvain comm  26 (size=  21) best match = GN comm None (Jaccard=0.0)  <-- no good match in GN (algorithm-specific)

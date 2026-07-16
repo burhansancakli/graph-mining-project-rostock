@@ -2,8 +2,8 @@ Werewolf cluster comparison -- denmark
 ============================================================
 
 Algorithm: Louvain
-  Community 1 (size=1555)
-  Top keywords: stille, følge, række, tænde, øre, smide, opdage, væg
+  Community 13 (size=103)
+  Top keywords: får, ulv, uge, negl, mandag, fredag, vulgi, tude
 
 Algorithm: Girvan-Newman
   Werewolf community not identified

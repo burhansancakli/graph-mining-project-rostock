@@ -24,7 +24,11 @@ from graph_utils import load_graph, DATASET, PROJECT_ROOT
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"
 
-MIN_WEIGHT_GN = 5            # starting threshold (auto-raised for large graphs, see below)
+MIN_WEIGHT_GN = 1.5           # starting threshold (auto-raised for large graphs, see below)
+                              # -- lowered from the old default of 5: with
+                              # graph_utils.ENABLE_FRACTIONAL_WEIGHTING (default on),
+                              # edge weights are usually well under 1 per story,
+                              # so a threshold of 5 would filter out nearly everything
 MAX_NODES_GN = 300             # hard cap: top-N nodes by degree
 MAX_GN_SPLITS = 30              # how many dendrogram levels to explore
 MAX_EDGES_BEFORE_CAP = 3000   # GN gets slow above this -> auto-raise the threshold
