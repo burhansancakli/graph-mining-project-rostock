@@ -1,0 +1,212 @@
+{
+  "algorithm": "Louvain",
+  "dataset": "netherlands",
+  "modularity": 0.3291624479310921,
+  "n_communities": 8,
+  "min_cooccurrence": 10,
+  "min_component_size": 100,
+  "graph_nodes": 2352,
+  "graph_edges": 36462,
+  "quality": {
+    "modularity": 0.3291624479310921,
+    "graph_density": 0.013188,
+    "total_weight": 1013570,
+    "intra_community_weight": 526235.0,
+    "inter_community_weight": 487335.0,
+    "cut_ratio": 0.4808,
+    "avg_conductance": 0.5458,
+    "avg_internal_density": 1.3931,
+    "size_entropy": 2.8179,
+    "max_size_ratio": 6.91,
+    "communities": [
+      {
+        "community": 0,
+        "size": 539,
+        "internal_weight": 156383.0,
+        "cut_weight": 194916.0,
+        "volume": 507682,
+        "conductance": 0.3839,
+        "internal_density": 1.0786
+      },
+      {
+        "community": 1,
+        "size": 78,
+        "internal_weight": 8838.0,
+        "cut_weight": 38201.0,
+        "volume": 55877,
+        "conductance": 0.6837,
+        "internal_density": 2.9431
+      },
+      {
+        "community": 2,
+        "size": 378,
+        "internal_weight": 92964.0,
+        "cut_weight": 217964.0,
+        "volume": 403892,
+        "conductance": 0.5397,
+        "internal_density": 1.3047
+      },
+      {
+        "community": 3,
+        "size": 408,
+        "internal_weight": 153039.0,
+        "cut_weight": 207533.0,
+        "volume": 513611,
+        "conductance": 0.4041,
+        "internal_density": 1.8432
+      },
+      {
+        "community": 4,
+        "size": 265,
+        "internal_weight": 20754.0,
+        "cut_weight": 67721.0,
+        "volume": 109229,
+        "conductance": 0.62,
+        "internal_density": 0.5933
+      },
+      {
+        "community": 5,
+        "size": 118,
+        "internal_weight": 8462.0,
+        "cut_weight": 27561.0,
+        "volume": 44485,
+        "conductance": 0.6196,
+        "internal_density": 1.2258
+      },
+      {
+        "community": 6,
+        "size": 306,
+        "internal_weight": 47424.0,
+        "cut_weight": 134538.0,
+        "volume": 229386,
+        "conductance": 0.5865,
+        "internal_density": 1.0163
+      },
+      {
+        "community": 7,
+        "size": 260,
+        "internal_weight": 38371.0,
+        "cut_weight": 86236.0,
+        "volume": 162978,
+        "conductance": 0.5291,
+        "internal_density": 1.1396
+      }
+    ]
+  },
+  "communities": [
+    {
+      "community": 0,
+      "size": 539,
+      "top_keywords": [
+        "heks",
+        "vrouw",
+        "toverij",
+        "hekserij",
+        "toveren",
+        "kind",
+        "ziek",
+        "betoveren"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 408,
+      "top_keywords": [
+        "dood",
+        "sterven",
+        "voorteken",
+        "voorloop",
+        "huis",
+        "zien",
+        "overlijden",
+        "voorbode"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 378,
+      "top_keywords": [
+        "nacht",
+        "spokerij",
+        "spook",
+        "spoken",
+        "angst",
+        "bang",
+        "avond",
+        "hond"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 306,
+      "top_keywords": [
+        "man",
+        "boer",
+        "paard",
+        "kracht",
+        "sterk",
+        "wonen",
+        "vragen",
+        "zeggen"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 265,
+      "top_keywords": [
+        "water",
+        "kerk",
+        "verdrinken",
+        "schip",
+        "pastoor",
+        "roepen",
+        "vallen",
+        "bidden"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 260,
+      "top_keywords": [
+        "duivel",
+        "geld",
+        "gooien",
+        "straf",
+        "drie",
+        "drinken",
+        "verkopen",
+        "smijten"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 118,
+      "top_keywords": [
+        "moord",
+        "vermoorden",
+        "onmogelijk",
+        "bloed",
+        "kleding",
+        "kabouter",
+        "kleren",
+        "zondag"
+      ]
+    },
+    {
+      "community": 1,
+      "size": 78,
+      "top_keywords": [
+        "bed",
+        "slapen",
+        "nachtmerrie",
+        "dochter",
+        "zeven",
+        "naloop",
+        "weerwolf",
+        "sleutelgat"
+      ]
+    }
+  ],
+  "werewolf_community": null,
+  "werewolf_members": []
+}

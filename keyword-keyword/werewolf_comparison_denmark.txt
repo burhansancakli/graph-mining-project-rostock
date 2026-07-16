@@ -1,0 +1,13 @@
+Werewolf cluster comparison — denmark
+============================================================
+
+Algorithm: Louvain
+  Community 2 (size=1556):
+  Top keywords: stille, time, følge, række, tænde, øre, smide, stikke
+
+Algorithm: Girvan-Newman
+  Werewolf community not identified
+
+Algorithm: BigCLAM
+  Werewolf community not identified
+

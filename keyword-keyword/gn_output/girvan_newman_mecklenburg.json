@@ -1,0 +1,183 @@
+{
+  "algorithm": "Girvan-Newman",
+  "dataset": "mecklenburg",
+  "modularity": 0.7675659266902479,
+  "n_communities": 10,
+  "min_weight": 5,
+  "max_nodes": 300,
+  "graph_nodes": 299,
+  "graph_edges": 1537,
+  "communities": [
+    {
+      "community": 3,
+      "size": 79,
+      "top_keywords": [
+        "Lokalsage",
+        "Lokalsagen: Varia",
+        "local legends: varia",
+        "Untergang",
+        "destruction",
+        "Räuber",
+        "robbers",
+        "Lokalsagen"
+      ]
+    },
+    {
+      "community": 9,
+      "size": 50,
+      "top_keywords": [
+        "sacrilege",
+        "Frevel",
+        "Frevelsage",
+        "tragen",
+        "Halskette",
+        "Ring",
+        "to wear a chain, ring",
+        "Kette tragen, Ring"
+      ]
+    },
+    {
+      "community": 0,
+      "size": 44,
+      "top_keywords": [
+        "Hexe",
+        "witches",
+        "Hexen",
+        "Blocksberg",
+        "buttern",
+        "to churn butter",
+        "Buttern",
+        "tu churn butter"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 35,
+      "top_keywords": [
+        "dead",
+        "Tote",
+        "Toter",
+        "Berg",
+        "Totenmesse",
+        "Requiem",
+        "Mutter",
+        "Totenhemd"
+      ]
+    },
+    {
+      "community": 1,
+      "size": 29,
+      "top_keywords": [
+        "Historische Sagen",
+        "historical legends",
+        "Sage, historische",
+        "French people",
+        "Franzosen",
+        "Krieg, dreißigjähriger",
+        "30-/100-jähriger Krieg, Vermischungen",
+        "Krieg, Hundertjähriger"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 20,
+      "top_keywords": [
+        "Riesen",
+        "giants",
+        "Riese",
+        "Stein",
+        "are throwing stones",
+        "werfen Steine",
+        "werfen",
+        "Varia"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 18,
+      "top_keywords": [
+        "Tiersage",
+        "Tiermärchen",
+        "Tiersagen, Märchen I",
+        "Taube",
+        "Fuchs",
+        "Pferd",
+        "Wolf",
+        "krank"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 10,
+      "top_keywords": [
+        "Moort",
+        "moort",
+        "Säbenrand",
+        "Sieve border",
+        "Horse, gen. defense etc.",
+        "Pferd, allg. Abwehr etc.",
+        "Taufe",
+        "Baptism, Lattenstiger (moonstruck)"
+      ]
+    },
+    {
+      "community": 8,
+      "size": 8,
+      "top_keywords": [
+        "Wasser",
+        "water",
+        "See (der)",
+        "ausmessen",
+        "ablassen",
+        "to drain, to measure lake etc.",
+        "ablassen, See ausmessen etc.",
+        "Opfer"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 6,
+      "top_keywords": [
+        "werewolf",
+        "Werwolf",
+        "Mahlzeit",
+        "Die reichliche Mahlzeit",
+        "The ample meal",
+        "Verwandlung, Werwolf"
+      ]
+    }
+  ],
+  "werewolf_community": 6,
+  "werewolf_members": [
+    {
+      "node_id": "80",
+      "keyword": "werewolf",
+      "degree": 195
+    },
+    {
+      "node_id": "83",
+      "keyword": "Werwolf",
+      "degree": 195
+    },
+    {
+      "node_id": "180",
+      "keyword": "Mahlzeit",
+      "degree": 95
+    },
+    {
+      "node_id": "181",
+      "keyword": "Die reichliche Mahlzeit",
+      "degree": 95
+    },
+    {
+      "node_id": "182",
+      "keyword": "The ample meal",
+      "degree": 95
+    },
+    {
+      "node_id": "271",
+      "keyword": "Verwandlung, Werwolf",
+      "degree": 85
+    }
+  ]
+}

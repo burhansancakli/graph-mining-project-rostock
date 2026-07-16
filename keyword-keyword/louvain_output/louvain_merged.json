@@ -1,0 +1,3378 @@
+{
+  "algorithm": "Louvain",
+  "dataset": "merged",
+  "modularity": 0.6093325788751222,
+  "n_communities": 36,
+  "min_cooccurrence": 10,
+  "min_component_size": 100,
+  "graph_nodes": 1799,
+  "graph_edges": 9485,
+  "quality": {
+    "modularity": 0.6093325788751222,
+    "graph_density": 0.005865,
+    "total_weight": 160911,
+    "intra_community_weight": 121927.0,
+    "inter_community_weight": 38984.0,
+    "cut_ratio": 0.2423,
+    "avg_conductance": 0.2607,
+    "avg_internal_density": 7.2977,
+    "size_entropy": 3.9254,
+    "max_size_ratio": 259.5,
+    "communities": [
+      {
+        "community": 0,
+        "size": 122,
+        "internal_weight": 5038.0,
+        "cut_weight": 7631.0,
+        "volume": 17707,
+        "conductance": 0.431,
+        "internal_density": 0.6826
+      },
+      {
+        "community": 1,
+        "size": 519,
+        "internal_weight": 39697.0,
+        "cut_weight": 29152.0,
+        "volume": 108546,
+        "conductance": 0.2686,
+        "internal_density": 0.2953
+      },
+      {
+        "community": 2,
+        "size": 79,
+        "internal_weight": 2357.0,
+        "cut_weight": 2202.0,
+        "volume": 6916,
+        "conductance": 0.3184,
+        "internal_density": 0.765
+      },
+      {
+        "community": 21,
+        "size": 63,
+        "internal_weight": 1572.0,
+        "cut_weight": 2270.0,
+        "volume": 5414,
+        "conductance": 0.4193,
+        "internal_density": 0.8049
+      },
+      {
+        "community": 4,
+        "size": 63,
+        "internal_weight": 9972.0,
+        "cut_weight": 3316.0,
+        "volume": 23260,
+        "conductance": 0.1426,
+        "internal_density": 5.106
+      },
+      {
+        "community": 5,
+        "size": 38,
+        "internal_weight": 1949.0,
+        "cut_weight": 711.0,
+        "volume": 4609,
+        "conductance": 0.1543,
+        "internal_density": 2.7724
+      },
+      {
+        "community": 12,
+        "size": 129,
+        "internal_weight": 2994.0,
+        "cut_weight": 4472.0,
+        "volume": 10460,
+        "conductance": 0.4275,
+        "internal_density": 0.3626
+      },
+      {
+        "community": 16,
+        "size": 26,
+        "internal_weight": 2058.0,
+        "cut_weight": 1208.0,
+        "volume": 5324,
+        "conductance": 0.2269,
+        "internal_density": 6.3323
+      },
+      {
+        "community": 8,
+        "size": 101,
+        "internal_weight": 2524.0,
+        "cut_weight": 3157.0,
+        "volume": 8205,
+        "conductance": 0.3848,
+        "internal_density": 0.4998
+      },
+      {
+        "community": 9,
+        "size": 100,
+        "internal_weight": 7941.0,
+        "cut_weight": 4575.0,
+        "volume": 20457,
+        "conductance": 0.2236,
+        "internal_density": 1.6042
+      },
+      {
+        "community": 10,
+        "size": 90,
+        "internal_weight": 5394.0,
+        "cut_weight": 2263.0,
+        "volume": 13051,
+        "conductance": 0.1734,
+        "internal_density": 1.3468
+      },
+      {
+        "community": 11,
+        "size": 47,
+        "internal_weight": 4475.0,
+        "cut_weight": 2112.0,
+        "volume": 11062,
+        "conductance": 0.1909,
+        "internal_density": 4.1397
+      },
+      {
+        "community": 13,
+        "size": 62,
+        "internal_weight": 7157.0,
+        "cut_weight": 3320.0,
+        "volume": 17634,
+        "conductance": 0.1883,
+        "internal_density": 3.7848
+      },
+      {
+        "community": 14,
+        "size": 90,
+        "internal_weight": 13720.0,
+        "cut_weight": 3799.0,
+        "volume": 31239,
+        "conductance": 0.1216,
+        "internal_density": 3.4257
+      },
+      {
+        "community": 15,
+        "size": 59,
+        "internal_weight": 8042.0,
+        "cut_weight": 2084.0,
+        "volume": 18168,
+        "conductance": 0.1147,
+        "internal_density": 4.7002
+      },
+      {
+        "community": 30,
+        "size": 32,
+        "internal_weight": 858.0,
+        "cut_weight": 1298.0,
+        "volume": 3014,
+        "conductance": 0.4307,
+        "internal_density": 1.7298
+      },
+      {
+        "community": 18,
+        "size": 58,
+        "internal_weight": 2992.0,
+        "cut_weight": 2872.0,
+        "volume": 8856,
+        "conductance": 0.3243,
+        "internal_density": 1.81
+      },
+      {
+        "community": 19,
+        "size": 5,
+        "internal_weight": 127.0,
+        "cut_weight": 66.0,
+        "volume": 320,
+        "conductance": 0.2062,
+        "internal_density": 12.7
+      },
+      {
+        "community": 22,
+        "size": 6,
+        "internal_weight": 107.0,
+        "cut_weight": 109.0,
+        "volume": 323,
+        "conductance": 0.3375,
+        "internal_density": 7.1333
+      },
+      {
+        "community": 23,
+        "size": 19,
+        "internal_weight": 443.0,
+        "cut_weight": 109.0,
+        "volume": 995,
+        "conductance": 0.1095,
+        "internal_density": 2.5906
+      },
+      {
+        "community": 24,
+        "size": 24,
+        "internal_weight": 391.0,
+        "cut_weight": 541.0,
+        "volume": 1323,
+        "conductance": 0.4089,
+        "internal_density": 1.4167
+      },
+      {
+        "community": 25,
+        "size": 4,
+        "internal_weight": 41.0,
+        "cut_weight": 22.0,
+        "volume": 104,
+        "conductance": 0.2115,
+        "internal_density": 6.8333
+      },
+      {
+        "community": 26,
+        "size": 9,
+        "internal_weight": 161.0,
+        "cut_weight": 240.0,
+        "volume": 562,
+        "conductance": 0.427,
+        "internal_density": 4.4722
+      },
+      {
+        "community": 27,
+        "size": 5,
+        "internal_weight": 48.0,
+        "cut_weight": 40.0,
+        "volume": 136,
+        "conductance": 0.2941,
+        "internal_density": 4.8
+      },
+      {
+        "community": 29,
+        "size": 23,
+        "internal_weight": 1470.0,
+        "cut_weight": 213.0,
+        "volume": 3153,
+        "conductance": 0.0676,
+        "internal_density": 5.8103
+      },
+      {
+        "community": 31,
+        "size": 2,
+        "internal_weight": 13.0,
+        "cut_weight": 10.0,
+        "volume": 36,
+        "conductance": 0.2778,
+        "internal_density": 13.0
+      },
+      {
+        "community": 32,
+        "size": 2,
+        "internal_weight": 17.0,
+        "cut_weight": 11.0,
+        "volume": 45,
+        "conductance": 0.2444,
+        "internal_density": 17.0
+      },
+      {
+        "community": 33,
+        "size": 2,
+        "internal_weight": 17.0,
+        "cut_weight": 16.0,
+        "volume": 50,
+        "conductance": 0.32,
+        "internal_density": 17.0
+      },
+      {
+        "community": 34,
+        "size": 5,
+        "internal_weight": 218.0,
+        "cut_weight": 53.0,
+        "volume": 489,
+        "conductance": 0.1084,
+        "internal_density": 21.8
+      },
+      {
+        "community": 35,
+        "size": 2,
+        "internal_weight": 16.0,
+        "cut_weight": 10.0,
+        "volume": 42,
+        "conductance": 0.2381,
+        "internal_density": 16.0
+      },
+      {
+        "community": 3,
+        "size": 2,
+        "internal_weight": 19.0,
+        "cut_weight": 10.0,
+        "volume": 48,
+        "conductance": 0.2083,
+        "internal_density": 19.0
+      },
+      {
+        "community": 6,
+        "size": 2,
+        "internal_weight": 11.0,
+        "cut_weight": 10.0,
+        "volume": 32,
+        "conductance": 0.3125,
+        "internal_density": 11.0
+      },
+      {
+        "community": 7,
+        "size": 3,
+        "internal_weight": 39.0,
+        "cut_weight": 31.0,
+        "volume": 109,
+        "conductance": 0.2844,
+        "internal_density": 13.0
+      },
+      {
+        "community": 17,
+        "size": 2,
+        "internal_weight": 19.0,
+        "cut_weight": 14.0,
+        "volume": 52,
+        "conductance": 0.2692,
+        "internal_density": 19.0
+      },
+      {
+        "community": 20,
+        "size": 2,
+        "internal_weight": 14.0,
+        "cut_weight": 10.0,
+        "volume": 38,
+        "conductance": 0.2632,
+        "internal_density": 14.0
+      },
+      {
+        "community": 28,
+        "size": 2,
+        "internal_weight": 16.0,
+        "cut_weight": 11.0,
+        "volume": 43,
+        "conductance": 0.2558,
+        "internal_density": 16.0
+      }
+    ]
+  },
+  "communities": [
+    {
+      "community": 1,
+      "size": 519,
+      "top_keywords": [
+        "to churn butter, rag",
+        "stille",
+        "følge",
+        "ende",
+        "fange",
+        "Hexenhalfter",
+        "træffe",
+        "samle"
+      ]
+    },
+    {
+      "community": 12,
+      "size": 129,
+      "top_keywords": [
+        "mur",
+        "sejle",
+        "kirke",
+        "trold",
+        "Räuber Varia",
+        "træ",
+        "Wallenstein",
+        "klokke"
+      ]
+    },
+    {
+      "community": 0,
+      "size": 122,
+      "top_keywords": [
+        "Försterhaus",
+        "Buch",
+        "himmel",
+        "synge",
+        "Varia II",
+        "stol",
+        "to wall",
+        "ed"
+      ]
+    },
+    {
+      "community": 8,
+      "size": 101,
+      "top_keywords": [
+        "austrinken",
+        "kaffe",
+        "grød",
+        "slagte",
+        "kage",
+        "fad",
+        "sælge",
+        "bage"
+      ]
+    },
+    {
+      "community": 9,
+      "size": 100,
+      "top_keywords": [
+        "Lokalsage",
+        "Hufeisen",
+        "local legends: varia",
+        "Lokalsagen: Varia",
+        "Lokalsagen",
+        "Berg",
+        "Fachliteratur",
+        "Schätze"
+      ]
+    },
+    {
+      "community": 10,
+      "size": 90,
+      "top_keywords": [
+        "water",
+        "Wasser",
+        "mæn",
+        "Name",
+        "kue",
+        "Mermaid",
+        "sæ",
+        "Steine"
+      ]
+    },
+    {
+      "community": 14,
+      "size": 90,
+      "top_keywords": [
+        "sacrilege",
+        "Frevel",
+        "Frevelsage",
+        "leben, ewig",
+        "Halskette",
+        "tragen",
+        "Ring",
+        "Kette tragen, Ring"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 79,
+      "top_keywords": [
+        "skyde",
+        "bøsse",
+        "waschen, sich",
+        "lindorm",
+        "tyr",
+        "ulv",
+        "Bär",
+        "sølvknap"
+      ]
+    },
+    {
+      "community": 21,
+      "size": 63,
+      "top_keywords": [
+        "Family",
+        "gifte",
+        "gjæst",
+        "dand",
+        "spille",
+        "bruden",
+        "brud",
+        "Names"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 63,
+      "top_keywords": [
+        "Hexen",
+        "Hexe",
+        "witches",
+        "Blocksberg",
+        "buttern",
+        "Blocksberg Varia",
+        "tu churn butter",
+        "to churn butter"
+      ]
+    },
+    {
+      "community": 13,
+      "size": 62,
+      "top_keywords": [
+        "historical legends",
+        "Sage, historische",
+        "Historische Sagen",
+        "French people",
+        "Allg.",
+        "Franzose",
+        "Franzosen",
+        "30-/100-jähriger Krieg, Vermischungen"
+      ]
+    },
+    {
+      "community": 15,
+      "size": 59,
+      "top_keywords": [
+        "Tote",
+        "dead",
+        "Toter",
+        "Tote red., erste Frau, Mutter",
+        "Dead red., first wife, mother",
+        "Totenmesse",
+        "Requiem",
+        "Mutter"
+      ]
+    },
+    {
+      "community": 18,
+      "size": 58,
+      "top_keywords": [
+        "Untergang",
+        "destruction",
+        "sygdom",
+        "Downfall: lit.",
+        "Towns",
+        "Städte",
+        "Kirchliches",
+        "sy"
+      ]
+    },
+    {
+      "community": 11,
+      "size": 47,
+      "top_keywords": [
+        "Riesen",
+        "giants",
+        "Riese",
+        "are throwing stones",
+        "Leute",
+        "Stein",
+        "werfen",
+        "werfen Steine"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 38,
+      "top_keywords": [
+        "Tiersage",
+        "Tiermärchen",
+        "Tiersagen, Märchen I",
+        "werewolf",
+        "Fuchs",
+        "Wolf",
+        "Werwolf",
+        "Verwandlung, Werwolf"
+      ]
+    },
+    {
+      "community": 30,
+      "size": 32,
+      "top_keywords": [
+        "Zwerge",
+        "Zwergensage",
+        "gjenganger",
+        "Doktor",
+        "pæl",
+        "hidden folk",
+        "gjenfærd",
+        "Kalenner"
+      ]
+    },
+    {
+      "community": 16,
+      "size": 26,
+      "top_keywords": [
+        "robbers",
+        "Räuber",
+        "Viting",
+        "hausen",
+        "Ort",
+        "Places, where robbers live",
+        "Orte, wo Räuber hausen",
+        "tønde"
+      ]
+    },
+    {
+      "community": 24,
+      "size": 24,
+      "top_keywords": [
+        "kræmmer",
+        "røver",
+        "henrette",
+        "kule",
+        "plyndre",
+        "overfalde",
+        "røve",
+        "gryn"
+      ]
+    },
+    {
+      "community": 29,
+      "size": 23,
+      "top_keywords": [
+        "moort",
+        "Moort",
+        "Pferd",
+        "Horse, gen. defense etc.",
+        "Säbenrand",
+        "Taufe, Lattenstiger",
+        "Pferd, allg. Abwehr etc.",
+        "Sieve border"
+      ]
+    },
+    {
+      "community": 23,
+      "size": 19,
+      "top_keywords": [
+        "Gälknoeker",
+        "præsteindb",
+        "Geist",
+        "Geister",
+        "Ghost",
+        "Streiche",
+        "Tricks",
+        "Streich"
+      ]
+    },
+    {
+      "community": 26,
+      "size": 9,
+      "top_keywords": [
+        "Hund",
+        "herredsfoged",
+        "ret",
+        "gespenstische Tiere",
+        "foged",
+        "Dog",
+        "herred",
+        "dommer"
+      ]
+    },
+    {
+      "community": 22,
+      "size": 6,
+      "top_keywords": [
+        "sol",
+        "skinne",
+        "nedgang",
+        "sehen",
+        "opgang",
+        "maan"
+      ]
+    },
+    {
+      "community": 19,
+      "size": 5,
+      "top_keywords": [
+        "genne",
+        "in",
+        "mor",
+        "gene",
+        "ryg"
+      ]
+    },
+    {
+      "community": 27,
+      "size": 5,
+      "top_keywords": [
+        "flok",
+        "gjæs",
+        "and",
+        "flokke",
+        "gjås"
+      ]
+    },
+    {
+      "community": 34,
+      "size": 5,
+      "top_keywords": [
+        "devil's confederate",
+        "Teufelsbündner",
+        "Columbus",
+        "Pumpfuß, Columbus",
+        "Pumpfuß"
+      ]
+    },
+    {
+      "community": 25,
+      "size": 4,
+      "top_keywords": [
+        "Halskoppelkette (Geschirr)",
+        "brand",
+        "el",
+        "ellepige"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 3,
+      "top_keywords": [
+        "sandholt",
+        "aand",
+        "fordømme"
+      ]
+    },
+    {
+      "community": 31,
+      "size": 2,
+      "top_keywords": [
+        "konfirmere",
+        "konfirmant"
+      ]
+    },
+    {
+      "community": 32,
+      "size": 2,
+      "top_keywords": [
+        "nytår",
+        "nytårsaften"
+      ]
+    },
+    {
+      "community": 33,
+      "size": 2,
+      "top_keywords": [
+        "forløse",
+        "barnsnød"
+      ]
+    },
+    {
+      "community": 35,
+      "size": 2,
+      "top_keywords": [
+        "strøg",
+        "stryge"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 2,
+      "top_keywords": [
+        "ise",
+        "is"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 2,
+      "top_keywords": [
+        "Dickmelk",
+        "sunde"
+      ]
+    },
+    {
+      "community": 17,
+      "size": 2,
+      "top_keywords": [
+        "prygle",
+        "dragt"
+      ]
+    },
+    {
+      "community": 20,
+      "size": 2,
+      "top_keywords": [
+        "sogn",
+        "beboer"
+      ]
+    },
+    {
+      "community": 28,
+      "size": 2,
+      "top_keywords": [
+        "kjelde",
+        "kjeld"
+      ]
+    }
+  ],
+  "werewolf_community": 1,
+  "werewolf_members": [
+    {
+      "node_id": "963",
+      "keyword": "to churn butter, rag",
+      "degree": 2862
+    },
+    {
+      "node_id": "2884",
+      "keyword": "stille",
+      "degree": 2670
+    },
+    {
+      "node_id": "1465",
+      "keyword": "følge",
+      "degree": 2175
+    },
+    {
+      "node_id": "1030",
+      "keyword": "ende",
+      "degree": 2067
+    },
+    {
+      "node_id": "456",
+      "keyword": "fange",
+      "degree": 1793
+    },
+    {
+      "node_id": "1138",
+      "keyword": "Hexenhalfter",
+      "degree": 1662
+    },
+    {
+      "node_id": "878",
+      "keyword": "træffe",
+      "degree": 1661
+    },
+    {
+      "node_id": "228",
+      "keyword": "samle",
+      "degree": 1628
+    },
+    {
+      "node_id": "1299",
+      "keyword": "væg",
+      "degree": 1617
+    },
+    {
+      "node_id": "173",
+      "keyword": "binde",
+      "degree": 1580
+    },
+    {
+      "node_id": "49",
+      "keyword": "tænde",
+      "degree": 1566
+    },
+    {
+      "node_id": "1066",
+      "keyword": "Forsthaus",
+      "degree": 1561
+    },
+    {
+      "node_id": "1339",
+      "keyword": "række",
+      "degree": 1494
+    },
+    {
+      "node_id": "677",
+      "keyword": "smide",
+      "degree": 1470
+    },
+    {
+      "node_id": "27",
+      "keyword": "opdage",
+      "degree": 1435
+    },
+    {
+      "node_id": "40",
+      "keyword": "Familie",
+      "degree": 1218
+    },
+    {
+      "node_id": "3250",
+      "keyword": "Mice tower",
+      "degree": 1214
+    },
+    {
+      "node_id": "4512",
+      "keyword": "tyk",
+      "degree": 1158
+    },
+    {
+      "node_id": "326",
+      "keyword": "by",
+      "degree": 1146
+    },
+    {
+      "node_id": "182",
+      "keyword": "The ample meal",
+      "degree": 1137
+    },
+    {
+      "node_id": "875",
+      "keyword": "spænde",
+      "degree": 1116
+    },
+    {
+      "node_id": "3211",
+      "keyword": "Wiedergänger",
+      "degree": 1061
+    },
+    {
+      "node_id": "394",
+      "keyword": "haunting animals",
+      "degree": 939
+    },
+    {
+      "node_id": "111",
+      "keyword": "from the french period",
+      "degree": 906
+    },
+    {
+      "node_id": "2709",
+      "keyword": "søge",
+      "degree": 888
+    },
+    {
+      "node_id": "1490",
+      "keyword": "varm",
+      "degree": 887
+    },
+    {
+      "node_id": "1074",
+      "keyword": "dag",
+      "degree": 873
+    },
+    {
+      "node_id": "1633",
+      "keyword": "vare",
+      "degree": 862
+    },
+    {
+      "node_id": "455",
+      "keyword": "krig",
+      "degree": 852
+    },
+    {
+      "node_id": "620",
+      "keyword": "begynde",
+      "degree": 824
+    },
+    {
+      "node_id": "703",
+      "keyword": "bringe",
+      "degree": 817
+    },
+    {
+      "node_id": "2580",
+      "keyword": "jung",
+      "degree": 812
+    },
+    {
+      "node_id": "1501",
+      "keyword": "brække",
+      "degree": 811
+    },
+    {
+      "node_id": "889",
+      "keyword": "nævne",
+      "degree": 810
+    },
+    {
+      "node_id": "1893",
+      "keyword": "Tiersagen, Märchen II",
+      "degree": 784
+    },
+    {
+      "node_id": "837",
+      "keyword": "Robber-knight gen.",
+      "degree": 775
+    },
+    {
+      "node_id": "1533",
+      "keyword": "gribe",
+      "degree": 759
+    },
+    {
+      "node_id": "2800",
+      "keyword": "Berge hohl",
+      "degree": 757
+    },
+    {
+      "node_id": "771",
+      "keyword": "bonde",
+      "degree": 740
+    },
+    {
+      "node_id": "244",
+      "keyword": "fylde",
+      "degree": 718
+    },
+    {
+      "node_id": "10",
+      "keyword": "dyb",
+      "degree": 701
+    },
+    {
+      "node_id": "383",
+      "keyword": "tænke",
+      "degree": 697
+    },
+    {
+      "node_id": "2811",
+      "keyword": "begrave",
+      "degree": 695
+    },
+    {
+      "node_id": "134",
+      "keyword": "gård",
+      "degree": 694
+    },
+    {
+      "node_id": "55",
+      "keyword": "Störtebecker - Gödeke Michel",
+      "degree": 684
+    },
+    {
+      "node_id": "528",
+      "keyword": "konge",
+      "degree": 684
+    },
+    {
+      "node_id": "573",
+      "keyword": "liste",
+      "degree": 677
+    },
+    {
+      "node_id": "693",
+      "keyword": "spøge",
+      "degree": 670
+    },
+    {
+      "node_id": "274",
+      "keyword": "vindue",
+      "degree": 668
+    },
+    {
+      "node_id": "1697",
+      "keyword": "hænge",
+      "degree": 661
+    },
+    {
+      "node_id": "2209",
+      "keyword": "fly",
+      "degree": 629
+    },
+    {
+      "node_id": "1145",
+      "keyword": "vente",
+      "degree": 622
+    },
+    {
+      "node_id": "2092",
+      "keyword": "tie",
+      "degree": 609
+    },
+    {
+      "node_id": "621",
+      "keyword": "Hohenkirchen",
+      "degree": 598
+    },
+    {
+      "node_id": "1661",
+      "keyword": "Leib",
+      "degree": 596
+    },
+    {
+      "node_id": "1022",
+      "keyword": "slæbe",
+      "degree": 592
+    },
+    {
+      "node_id": "1639",
+      "keyword": "ansigt",
+      "degree": 587
+    },
+    {
+      "node_id": "471",
+      "keyword": "hugge",
+      "degree": 579
+    },
+    {
+      "node_id": "1216",
+      "keyword": "wo",
+      "degree": 576
+    },
+    {
+      "node_id": "594",
+      "keyword": "bæst",
+      "degree": 563
+    },
+    {
+      "node_id": "1822",
+      "keyword": "kone",
+      "degree": 556
+    },
+    {
+      "node_id": "158",
+      "keyword": "pæn",
+      "degree": 555
+    },
+    {
+      "node_id": "169",
+      "keyword": "The shot werewolf",
+      "degree": 536
+    },
+    {
+      "node_id": "388",
+      "keyword": "tigge",
+      "degree": 535
+    },
+    {
+      "node_id": "980",
+      "keyword": "kraft",
+      "degree": 503
+    },
+    {
+      "node_id": "735",
+      "keyword": "rende",
+      "degree": 499
+    },
+    {
+      "node_id": "567",
+      "keyword": "middag",
+      "degree": 497
+    },
+    {
+      "node_id": "511",
+      "keyword": "Hieb",
+      "degree": 495
+    },
+    {
+      "node_id": "1253",
+      "keyword": "Hohlweg",
+      "degree": 486
+    },
+    {
+      "node_id": "1004",
+      "keyword": "syne",
+      "degree": 486
+    },
+    {
+      "node_id": "1836",
+      "keyword": "del",
+      "degree": 484
+    },
+    {
+      "node_id": "596",
+      "keyword": "æde",
+      "degree": 474
+    },
+    {
+      "node_id": "2244",
+      "keyword": "sikker",
+      "degree": 472
+    },
+    {
+      "node_id": "1589",
+      "keyword": "tro",
+      "degree": 466
+    },
+    {
+      "node_id": "965",
+      "keyword": "Buttern, Lappen etc.",
+      "degree": 463
+    },
+    {
+      "node_id": "176",
+      "keyword": "bestille",
+      "degree": 461
+    },
+    {
+      "node_id": "608",
+      "keyword": "bryde",
+      "degree": 458
+    },
+    {
+      "node_id": "568",
+      "keyword": "herregård",
+      "degree": 456
+    },
+    {
+      "node_id": "842",
+      "keyword": "miste",
+      "degree": 456
+    },
+    {
+      "node_id": "426",
+      "keyword": "spise",
+      "degree": 451
+    },
+    {
+      "node_id": "435",
+      "keyword": "gods",
+      "degree": 444
+    },
+    {
+      "node_id": "631",
+      "keyword": "hilse",
+      "degree": 443
+    },
+    {
+      "node_id": "2452",
+      "keyword": "klage",
+      "degree": 426
+    },
+    {
+      "node_id": "56",
+      "keyword": "klar",
+      "degree": 426
+    },
+    {
+      "node_id": "1172",
+      "keyword": "re",
+      "degree": 420
+    },
+    {
+      "node_id": "470",
+      "keyword": "løfte",
+      "degree": 418
+    },
+    {
+      "node_id": "106",
+      "keyword": "Besen",
+      "degree": 411
+    },
+    {
+      "node_id": "1769",
+      "keyword": "Bierbuddel",
+      "degree": 404
+    },
+    {
+      "node_id": "384",
+      "keyword": "gjemt",
+      "degree": 400
+    },
+    {
+      "node_id": "366",
+      "keyword": "frelse",
+      "degree": 397
+    },
+    {
+      "node_id": "611",
+      "keyword": "glauben (spirituell)",
+      "degree": 384
+    },
+    {
+      "node_id": "39",
+      "keyword": "Knight varia",
+      "degree": 382
+    },
+    {
+      "node_id": "180",
+      "keyword": "Mahlzeit",
+      "degree": 381
+    },
+    {
+      "node_id": "2377",
+      "keyword": "Seemingly dead",
+      "degree": 374
+    },
+    {
+      "node_id": "535",
+      "keyword": "fare",
+      "degree": 371
+    },
+    {
+      "node_id": "1826",
+      "keyword": "mælde",
+      "degree": 360
+    },
+    {
+      "node_id": "670",
+      "keyword": "vælte",
+      "degree": 356
+    },
+    {
+      "node_id": "282",
+      "keyword": "bryst",
+      "degree": 356
+    },
+    {
+      "node_id": "2671",
+      "keyword": "Riesensage",
+      "degree": 356
+    },
+    {
+      "node_id": "725",
+      "keyword": "dige",
+      "degree": 345
+    },
+    {
+      "node_id": "3539",
+      "keyword": "næse",
+      "degree": 345
+    },
+    {
+      "node_id": "1365",
+      "keyword": "eje",
+      "degree": 344
+    },
+    {
+      "node_id": "684",
+      "keyword": "ligne",
+      "degree": 334
+    },
+    {
+      "node_id": "367",
+      "keyword": "skikkelse",
+      "degree": 325
+    },
+    {
+      "node_id": "1695",
+      "keyword": "love",
+      "degree": 321
+    },
+    {
+      "node_id": "490",
+      "keyword": "tale",
+      "degree": 303
+    },
+    {
+      "node_id": "3781",
+      "keyword": "eftermiddag",
+      "degree": 299
+    },
+    {
+      "node_id": "3640",
+      "keyword": "husbond",
+      "degree": 295
+    },
+    {
+      "node_id": "2642",
+      "keyword": "kjøkken",
+      "degree": 285
+    },
+    {
+      "node_id": "327",
+      "keyword": "sende",
+      "degree": 283
+    },
+    {
+      "node_id": "1257",
+      "keyword": "tabe",
+      "degree": 279
+    },
+    {
+      "node_id": "164",
+      "keyword": "Gehöft",
+      "degree": 270
+    },
+    {
+      "node_id": "2010",
+      "keyword": "seng",
+      "degree": 269
+    },
+    {
+      "node_id": "2128",
+      "keyword": "stemme",
+      "degree": 268
+    },
+    {
+      "node_id": "1804",
+      "keyword": "fjende",
+      "degree": 268
+    },
+    {
+      "node_id": "1577",
+      "keyword": "beslutte",
+      "degree": 261
+    },
+    {
+      "node_id": "2982",
+      "keyword": "skjule",
+      "degree": 259
+    },
+    {
+      "node_id": "1871",
+      "keyword": "freten",
+      "degree": 258
+    },
+    {
+      "node_id": "927",
+      "keyword": "putte",
+      "degree": 257
+    },
+    {
+      "node_id": "432",
+      "keyword": "uge",
+      "degree": 250
+    },
+    {
+      "node_id": "89",
+      "keyword": "smuk",
+      "degree": 249
+    },
+    {
+      "node_id": "1874",
+      "keyword": "låne",
+      "degree": 230
+    },
+    {
+      "node_id": "2678",
+      "keyword": "springe",
+      "degree": 230
+    },
+    {
+      "node_id": "473",
+      "keyword": "Schweden",
+      "degree": 227
+    },
+    {
+      "node_id": "1739",
+      "keyword": "Kuhfütterer",
+      "degree": 225
+    },
+    {
+      "node_id": "1124",
+      "keyword": "folk",
+      "degree": 224
+    },
+    {
+      "node_id": "2013",
+      "keyword": "vågne",
+      "degree": 223
+    },
+    {
+      "node_id": "699",
+      "keyword": "lyde",
+      "degree": 215
+    },
+    {
+      "node_id": "1710",
+      "keyword": "narre",
+      "degree": 209
+    },
+    {
+      "node_id": "821",
+      "keyword": "betyde",
+      "degree": 207
+    },
+    {
+      "node_id": "616",
+      "keyword": "Glasflasche",
+      "degree": 202
+    },
+    {
+      "node_id": "1621",
+      "keyword": "slem",
+      "degree": 201
+    },
+    {
+      "node_id": "102",
+      "keyword": "Gestalt",
+      "degree": 199
+    },
+    {
+      "node_id": "968",
+      "keyword": "Stock, weißer",
+      "degree": 193
+    },
+    {
+      "node_id": "898",
+      "keyword": "Mountain, non movere",
+      "degree": 188
+    },
+    {
+      "node_id": "2661",
+      "keyword": "haand",
+      "degree": 187
+    },
+    {
+      "node_id": "547",
+      "keyword": "lig",
+      "degree": 182
+    },
+    {
+      "node_id": "2182",
+      "keyword": "hård",
+      "degree": 181
+    },
+    {
+      "node_id": "380",
+      "keyword": "fod",
+      "degree": 178
+    },
+    {
+      "node_id": "629",
+      "keyword": "maade",
+      "degree": 176
+    },
+    {
+      "node_id": "856",
+      "keyword": "pine",
+      "degree": 175
+    },
+    {
+      "node_id": "2144",
+      "keyword": "åben",
+      "degree": 175
+    },
+    {
+      "node_id": "698",
+      "keyword": "trække",
+      "degree": 171
+    },
+    {
+      "node_id": "1177",
+      "keyword": "skjælde",
+      "degree": 170
+    },
+    {
+      "node_id": "101",
+      "keyword": "mangen",
+      "degree": 169
+    },
+    {
+      "node_id": "385",
+      "keyword": "beholde",
+      "degree": 167
+    },
+    {
+      "node_id": "685",
+      "keyword": "høre",
+      "degree": 167
+    },
+    {
+      "node_id": "1001",
+      "keyword": "torsdag",
+      "degree": 166
+    },
+    {
+      "node_id": "2399",
+      "keyword": "piske",
+      "degree": 165
+    },
+    {
+      "node_id": "3387",
+      "keyword": "Dirn",
+      "degree": 160
+    },
+    {
+      "node_id": "2079",
+      "keyword": "opholde",
+      "degree": 156
+    },
+    {
+      "node_id": "992",
+      "keyword": "føre",
+      "degree": 153
+    },
+    {
+      "node_id": "609",
+      "keyword": "pinde",
+      "degree": 153
+    },
+    {
+      "node_id": "1493",
+      "keyword": "Protective agent",
+      "degree": 153
+    },
+    {
+      "node_id": "1816",
+      "keyword": "herre",
+      "degree": 153
+    },
+    {
+      "node_id": "674",
+      "keyword": "rykke",
+      "degree": 149
+    },
+    {
+      "node_id": "3516",
+      "keyword": "stud",
+      "degree": 149
+    },
+    {
+      "node_id": "1279",
+      "keyword": "ausmelken",
+      "degree": 147
+    },
+    {
+      "node_id": "33",
+      "keyword": "Kuhhirte",
+      "degree": 147
+    },
+    {
+      "node_id": "2444",
+      "keyword": "kost",
+      "degree": 145
+    },
+    {
+      "node_id": "3179",
+      "keyword": "krop",
+      "degree": 142
+    },
+    {
+      "node_id": "2267",
+      "keyword": "kratzen",
+      "degree": 142
+    },
+    {
+      "node_id": "941",
+      "keyword": "trænge",
+      "degree": 142
+    },
+    {
+      "node_id": "239",
+      "keyword": "ordentlig",
+      "degree": 142
+    },
+    {
+      "node_id": "4577",
+      "keyword": "flygte",
+      "degree": 138
+    },
+    {
+      "node_id": "2647",
+      "keyword": "bære",
+      "degree": 134
+    },
+    {
+      "node_id": "2766",
+      "keyword": "hjælpe",
+      "degree": 131
+    },
+    {
+      "node_id": "2113",
+      "keyword": "nær",
+      "degree": 127
+    },
+    {
+      "node_id": "2339",
+      "keyword": "kjende",
+      "degree": 124
+    },
+    {
+      "node_id": "2336",
+      "keyword": "omtale",
+      "degree": 124
+    },
+    {
+      "node_id": "2250",
+      "keyword": "sognefoged",
+      "degree": 122
+    },
+    {
+      "node_id": "133",
+      "keyword": "værelse",
+      "degree": 120
+    },
+    {
+      "node_id": "1100",
+      "keyword": "begravelse",
+      "degree": 120
+    },
+    {
+      "node_id": "1535",
+      "keyword": "tyve",
+      "degree": 119
+    },
+    {
+      "node_id": "1289",
+      "keyword": "vagt",
+      "degree": 119
+    },
+    {
+      "node_id": "1231",
+      "keyword": "Horseshoe inverse",
+      "degree": 117
+    },
+    {
+      "node_id": "1204",
+      "keyword": "mening",
+      "degree": 117
+    },
+    {
+      "node_id": "382",
+      "keyword": "dyne",
+      "degree": 117
+    },
+    {
+      "node_id": "3484",
+      "keyword": "reb",
+      "degree": 116
+    },
+    {
+      "node_id": "1561",
+      "keyword": "stad",
+      "degree": 115
+    },
+    {
+      "node_id": "50",
+      "keyword": "bjælke",
+      "degree": 113
+    },
+    {
+      "node_id": "833",
+      "keyword": "Bridge",
+      "degree": 113
+    },
+    {
+      "node_id": "780",
+      "keyword": "fald",
+      "degree": 112
+    },
+    {
+      "node_id": "272",
+      "keyword": "slukke",
+      "degree": 110
+    },
+    {
+      "node_id": "2363",
+      "keyword": "stund",
+      "degree": 109
+    },
+    {
+      "node_id": "1309",
+      "keyword": "prøve",
+      "degree": 107
+    },
+    {
+      "node_id": "850",
+      "keyword": "hulle",
+      "degree": 107
+    },
+    {
+      "node_id": "675",
+      "keyword": "kniv",
+      "degree": 106
+    },
+    {
+      "node_id": "1187",
+      "keyword": "stiltiende",
+      "degree": 106
+    },
+    {
+      "node_id": "2065",
+      "keyword": "sag",
+      "degree": 106
+    },
+    {
+      "node_id": "872",
+      "keyword": "hoppe",
+      "degree": 105
+    },
+    {
+      "node_id": "2133",
+      "keyword": "ven",
+      "degree": 105
+    },
+    {
+      "node_id": "357",
+      "keyword": "aar",
+      "degree": 105
+    },
+    {
+      "node_id": "1352",
+      "keyword": "broder",
+      "degree": 104
+    },
+    {
+      "node_id": "1474",
+      "keyword": "bore",
+      "degree": 104
+    },
+    {
+      "node_id": "1319",
+      "keyword": "sjælden",
+      "degree": 102
+    },
+    {
+      "node_id": "2054",
+      "keyword": "snappe",
+      "degree": 102
+    },
+    {
+      "node_id": "3073",
+      "keyword": "satan",
+      "degree": 101
+    },
+    {
+      "node_id": "2057",
+      "keyword": "ligeledes",
+      "degree": 101
+    },
+    {
+      "node_id": "447",
+      "keyword": "træt",
+      "degree": 100
+    },
+    {
+      "node_id": "932",
+      "keyword": "sne",
+      "degree": 100
+    },
+    {
+      "node_id": "389",
+      "keyword": "leje",
+      "degree": 100
+    },
+    {
+      "node_id": "1614",
+      "keyword": "jordemoder",
+      "degree": 100
+    },
+    {
+      "node_id": "95",
+      "keyword": "stamme",
+      "degree": 99
+    },
+    {
+      "node_id": "2918",
+      "keyword": "afsted",
+      "degree": 98
+    },
+    {
+      "node_id": "1181",
+      "keyword": "sætte",
+      "degree": 98
+    },
+    {
+      "node_id": "1616",
+      "keyword": "noble family",
+      "degree": 98
+    },
+    {
+      "node_id": "2535",
+      "keyword": "kappe",
+      "degree": 98
+    },
+    {
+      "node_id": "605",
+      "keyword": "fæste",
+      "degree": 97
+    },
+    {
+      "node_id": "6103",
+      "keyword": "svensk",
+      "degree": 94
+    },
+    {
+      "node_id": "1051",
+      "keyword": "snakke",
+      "degree": 94
+    },
+    {
+      "node_id": "3730",
+      "keyword": "danmark",
+      "degree": 92
+    },
+    {
+      "node_id": "9",
+      "keyword": "skrig",
+      "degree": 90
+    },
+    {
+      "node_id": "3273",
+      "keyword": "knægt",
+      "degree": 90
+    },
+    {
+      "node_id": "4548",
+      "keyword": "tælle",
+      "degree": 88
+    },
+    {
+      "node_id": "1958",
+      "keyword": "pege",
+      "degree": 88
+    },
+    {
+      "node_id": "5995",
+      "keyword": "mandag",
+      "degree": 86
+    },
+    {
+      "node_id": "1582",
+      "keyword": "dække",
+      "degree": 83
+    },
+    {
+      "node_id": "954",
+      "keyword": "føle",
+      "degree": 81
+    },
+    {
+      "node_id": "3203",
+      "keyword": "forskrækkelig",
+      "degree": 79
+    },
+    {
+      "node_id": "1259",
+      "keyword": "ty",
+      "degree": 77
+    },
+    {
+      "node_id": "3247",
+      "keyword": "hort",
+      "degree": 77
+    },
+    {
+      "node_id": "3190",
+      "keyword": "forved",
+      "degree": 77
+    },
+    {
+      "node_id": "1448",
+      "keyword": "færd",
+      "degree": 77
+    },
+    {
+      "node_id": "136",
+      "keyword": "forstå",
+      "degree": 77
+    },
+    {
+      "node_id": "709",
+      "keyword": "bånd",
+      "degree": 76
+    },
+    {
+      "node_id": "1160",
+      "keyword": "Aufenthaltsort",
+      "degree": 75
+    },
+    {
+      "node_id": "903",
+      "keyword": "forfærdelig",
+      "degree": 75
+    },
+    {
+      "node_id": "915",
+      "keyword": "råde",
+      "degree": 75
+    },
+    {
+      "node_id": "238",
+      "keyword": "forvalter",
+      "degree": 74
+    },
+    {
+      "node_id": "183",
+      "keyword": "forskrække",
+      "degree": 74
+    },
+    {
+      "node_id": "2076",
+      "keyword": "slægt",
+      "degree": 73
+    },
+    {
+      "node_id": "1693",
+      "keyword": "Departure etc.",
+      "degree": 73
+    },
+    {
+      "node_id": "2458",
+      "keyword": "sove",
+      "degree": 72
+    },
+    {
+      "node_id": "697",
+      "keyword": "skred",
+      "degree": 71
+    },
+    {
+      "node_id": "3483",
+      "keyword": "bås",
+      "degree": 69
+    },
+    {
+      "node_id": "2293",
+      "keyword": "løverdag",
+      "degree": 68
+    },
+    {
+      "node_id": "2179",
+      "keyword": "hente",
+      "degree": 67
+    },
+    {
+      "node_id": "2614",
+      "keyword": "morgen",
+      "degree": 67
+    },
+    {
+      "node_id": "427",
+      "keyword": "æble",
+      "degree": 67
+    },
+    {
+      "node_id": "589",
+      "keyword": "Kahn",
+      "degree": 66
+    },
+    {
+      "node_id": "2005",
+      "keyword": "sædvanlig",
+      "degree": 66
+    },
+    {
+      "node_id": "329",
+      "keyword": "underlig",
+      "degree": 66
+    },
+    {
+      "node_id": "1031",
+      "keyword": "rigtig",
+      "degree": 65
+    },
+    {
+      "node_id": "1072",
+      "keyword": "Krankheiten",
+      "degree": 65
+    },
+    {
+      "node_id": "1525",
+      "keyword": "Advokat",
+      "degree": 65
+    },
+    {
+      "node_id": "1027",
+      "keyword": "stok",
+      "degree": 65
+    },
+    {
+      "node_id": "689",
+      "keyword": "saadant",
+      "degree": 65
+    },
+    {
+      "node_id": "1889",
+      "keyword": "finger",
+      "degree": 65
+    },
+    {
+      "node_id": "1295",
+      "keyword": "midnat",
+      "degree": 64
+    },
+    {
+      "node_id": "4984",
+      "keyword": "styrte",
+      "degree": 64
+    },
+    {
+      "node_id": "1543",
+      "keyword": "gekocht",
+      "degree": 63
+    },
+    {
+      "node_id": "651",
+      "keyword": "kaufen",
+      "degree": 63
+    },
+    {
+      "node_id": "1331",
+      "keyword": "navn",
+      "degree": 63
+    },
+    {
+      "node_id": "3169",
+      "keyword": "spøgeri",
+      "degree": 61
+    },
+    {
+      "node_id": "196",
+      "keyword": "Schneider",
+      "degree": 60
+    },
+    {
+      "node_id": "1978",
+      "keyword": "tysk",
+      "degree": 60
+    },
+    {
+      "node_id": "1578",
+      "keyword": "forestille",
+      "degree": 60
+    },
+    {
+      "node_id": "3608",
+      "keyword": "arrest",
+      "degree": 59
+    },
+    {
+      "node_id": "213",
+      "keyword": "fy",
+      "degree": 58
+    },
+    {
+      "node_id": "5257",
+      "keyword": "engelsk",
+      "degree": 57
+    },
+    {
+      "node_id": "90",
+      "keyword": "redire",
+      "degree": 56
+    },
+    {
+      "node_id": "1422",
+      "keyword": "bestå",
+      "degree": 56
+    },
+    {
+      "node_id": "393",
+      "keyword": "bytte",
+      "degree": 56
+    },
+    {
+      "node_id": "1951",
+      "keyword": "jorde",
+      "degree": 56
+    },
+    {
+      "node_id": "4430",
+      "keyword": "put",
+      "degree": 55
+    },
+    {
+      "node_id": "1353",
+      "keyword": "ung",
+      "degree": 54
+    },
+    {
+      "node_id": "550",
+      "keyword": "hvilken",
+      "degree": 54
+    },
+    {
+      "node_id": "2609",
+      "keyword": "fuld",
+      "degree": 52
+    },
+    {
+      "node_id": "77",
+      "keyword": "hjært",
+      "degree": 52
+    },
+    {
+      "node_id": "1506",
+      "keyword": "fredag",
+      "degree": 51
+    },
+    {
+      "node_id": "572",
+      "keyword": "herremand",
+      "degree": 51
+    },
+    {
+      "node_id": "4693",
+      "keyword": "øvrighed",
+      "degree": 50
+    },
+    {
+      "node_id": "3846",
+      "keyword": "Brenner",
+      "degree": 50
+    },
+    {
+      "node_id": "163",
+      "keyword": "Hexenverbrennung",
+      "degree": 50
+    },
+    {
+      "node_id": "852",
+      "keyword": "sige",
+      "degree": 50
+    },
+    {
+      "node_id": "355",
+      "keyword": "Unterirdische",
+      "degree": 49
+    },
+    {
+      "node_id": "598",
+      "keyword": "formiddag",
+      "degree": 49
+    },
+    {
+      "node_id": "3085",
+      "keyword": "storstue",
+      "degree": 49
+    },
+    {
+      "node_id": "3535",
+      "keyword": "lopen",
+      "degree": 48
+    },
+    {
+      "node_id": "1311",
+      "keyword": "fjæl",
+      "degree": 48
+    },
+    {
+      "node_id": "1677",
+      "keyword": "råbe",
+      "degree": 48
+    },
+    {
+      "node_id": "2461",
+      "keyword": "raab",
+      "degree": 47
+    },
+    {
+      "node_id": "5691",
+      "keyword": "snedker",
+      "degree": 47
+    },
+    {
+      "node_id": "2291",
+      "keyword": "samsø",
+      "degree": 45
+    },
+    {
+      "node_id": "3779",
+      "keyword": "flytte",
+      "degree": 45
+    },
+    {
+      "node_id": "98",
+      "keyword": "trykke",
+      "degree": 44
+    },
+    {
+      "node_id": "668",
+      "keyword": "lede",
+      "degree": 44
+    },
+    {
+      "node_id": "730",
+      "keyword": "egn",
+      "degree": 44
+    },
+    {
+      "node_id": "3020",
+      "keyword": "øvrig",
+      "degree": 44
+    },
+    {
+      "node_id": "592",
+      "keyword": "retten",
+      "degree": 43
+    },
+    {
+      "node_id": "1240",
+      "keyword": "bruge",
+      "degree": 43
+    },
+    {
+      "node_id": "1401",
+      "keyword": "vove",
+      "degree": 42
+    },
+    {
+      "node_id": "5353",
+      "keyword": "nederst",
+      "degree": 42
+    },
+    {
+      "node_id": "450",
+      "keyword": "farlig",
+      "degree": 42
+    },
+    {
+      "node_id": "4427",
+      "keyword": "behøve",
+      "degree": 42
+    },
+    {
+      "node_id": "4796",
+      "keyword": "sabel",
+      "degree": 42
+    },
+    {
+      "node_id": "5432",
+      "keyword": "læg",
+      "degree": 42
+    },
+    {
+      "node_id": "1298",
+      "keyword": "slaar",
+      "degree": 42
+    },
+    {
+      "node_id": "3490",
+      "keyword": "strække",
+      "degree": 42
+    },
+    {
+      "node_id": "1180",
+      "keyword": "samtidig",
+      "degree": 41
+    },
+    {
+      "node_id": "4422",
+      "keyword": "bekjende",
+      "degree": 41
+    },
+    {
+      "node_id": "1473",
+      "keyword": "sam",
+      "degree": 41
+    },
+    {
+      "node_id": "2560",
+      "keyword": "iblandt",
+      "degree": 41
+    },
+    {
+      "node_id": "1060",
+      "keyword": "billede",
+      "degree": 40
+    },
+    {
+      "node_id": "4686",
+      "keyword": "hår",
+      "degree": 38
+    },
+    {
+      "node_id": "2783",
+      "keyword": "Fru",
+      "degree": 38
+    },
+    {
+      "node_id": "1544",
+      "keyword": "sterben",
+      "degree": 38
+    },
+    {
+      "node_id": "3054",
+      "keyword": "Sarg, goldener",
+      "degree": 38
+    },
+    {
+      "node_id": "2988",
+      "keyword": "folge",
+      "degree": 36
+    },
+    {
+      "node_id": "1619",
+      "keyword": "tung",
+      "degree": 36
+    },
+    {
+      "node_id": "924",
+      "keyword": "lokke",
+      "degree": 36
+    },
+    {
+      "node_id": "2582",
+      "keyword": "Ehepaar",
+      "degree": 36
+    },
+    {
+      "node_id": "1317",
+      "keyword": "Arm",
+      "degree": 36
+    },
+    {
+      "node_id": "5890",
+      "keyword": "gjøre",
+      "degree": 36
+    },
+    {
+      "node_id": "1306",
+      "keyword": "skrald",
+      "degree": 36
+    },
+    {
+      "node_id": "3591",
+      "keyword": "spids",
+      "degree": 36
+    },
+    {
+      "node_id": "2656",
+      "keyword": "skjæg",
+      "degree": 36
+    },
+    {
+      "node_id": "855",
+      "keyword": "dør",
+      "degree": 35
+    },
+    {
+      "node_id": "3565",
+      "keyword": "kakkelovn",
+      "degree": 35
+    },
+    {
+      "node_id": "1122",
+      "keyword": "kold",
+      "degree": 35
+    },
+    {
+      "node_id": "2154",
+      "keyword": "takke",
+      "degree": 34
+    },
+    {
+      "node_id": "1687",
+      "keyword": "Lattenspringer (moonstruck)",
+      "degree": 34
+    },
+    {
+      "node_id": "1447",
+      "keyword": "nytte",
+      "degree": 33
+    },
+    {
+      "node_id": "3317",
+      "keyword": "meddele",
+      "degree": 33
+    },
+    {
+      "node_id": "1883",
+      "keyword": "Gerichtsberg, unschuldig gerichtet",
+      "degree": 33
+    },
+    {
+      "node_id": "7667",
+      "keyword": "bekje",
+      "degree": 33
+    },
+    {
+      "node_id": "1551",
+      "keyword": "vældig",
+      "degree": 32
+    },
+    {
+      "node_id": "2114",
+      "keyword": "grøft",
+      "degree": 32
+    },
+    {
+      "node_id": "1002",
+      "keyword": "aften",
+      "degree": 32
+    },
+    {
+      "node_id": "3541",
+      "keyword": "fornærme",
+      "degree": 32
+    },
+    {
+      "node_id": "521",
+      "keyword": "umulig",
+      "degree": 32
+    },
+    {
+      "node_id": "7036",
+      "keyword": "hin",
+      "degree": 31
+    },
+    {
+      "node_id": "1750",
+      "keyword": "vide",
+      "degree": 31
+    },
+    {
+      "node_id": "177",
+      "keyword": "udbryde",
+      "degree": 31
+    },
+    {
+      "node_id": "3037",
+      "keyword": "forældre",
+      "degree": 31
+    },
+    {
+      "node_id": "3401",
+      "keyword": "opfylde",
+      "degree": 31
+    },
+    {
+      "node_id": "907",
+      "keyword": "bolig",
+      "degree": 30
+    },
+    {
+      "node_id": "3736",
+      "keyword": "sved",
+      "degree": 30
+    },
+    {
+      "node_id": "1841",
+      "keyword": "ejer",
+      "degree": 29
+    },
+    {
+      "node_id": "434",
+      "keyword": "dele",
+      "degree": 29
+    },
+    {
+      "node_id": "502",
+      "keyword": "non delenda",
+      "degree": 28
+    },
+    {
+      "node_id": "2570",
+      "keyword": "jamre",
+      "degree": 28
+    },
+    {
+      "node_id": "4011",
+      "keyword": "uheld",
+      "degree": 26
+    },
+    {
+      "node_id": "3763",
+      "keyword": "fortsætte",
+      "degree": 25
+    },
+    {
+      "node_id": "3114",
+      "keyword": "belejre",
+      "degree": 25
+    },
+    {
+      "node_id": "2694",
+      "keyword": "bymand",
+      "degree": 25
+    },
+    {
+      "node_id": "1852",
+      "keyword": "bundløs",
+      "degree": 24
+    },
+    {
+      "node_id": "530",
+      "keyword": "tunge",
+      "degree": 24
+    },
+    {
+      "node_id": "6236",
+      "keyword": "løbsk",
+      "degree": 24
+    },
+    {
+      "node_id": "1220",
+      "keyword": "jord",
+      "degree": 24
+    },
+    {
+      "node_id": "1356",
+      "keyword": "singen",
+      "degree": 23
+    },
+    {
+      "node_id": "2751",
+      "keyword": "rar",
+      "degree": 22
+    },
+    {
+      "node_id": "1089",
+      "keyword": "tysker",
+      "degree": 22
+    },
+    {
+      "node_id": "1307",
+      "keyword": "tier",
+      "degree": 22
+    },
+    {
+      "node_id": "1576",
+      "keyword": "helfen",
+      "degree": 22
+    },
+    {
+      "node_id": "1430",
+      "keyword": "bekreuzigen, sich",
+      "degree": 22
+    },
+    {
+      "node_id": "5434",
+      "keyword": "eftersom",
+      "degree": 21
+    },
+    {
+      "node_id": "9031",
+      "keyword": "tyveri",
+      "degree": 21
+    },
+    {
+      "node_id": "262",
+      "keyword": "kaste",
+      "degree": 21
+    },
+    {
+      "node_id": "174",
+      "keyword": "standse",
+      "degree": 21
+    },
+    {
+      "node_id": "4289",
+      "keyword": "vorte",
+      "degree": 21
+    },
+    {
+      "node_id": "478",
+      "keyword": "ligefrem",
+      "degree": 20
+    },
+    {
+      "node_id": "1657",
+      "keyword": "Dreizack",
+      "degree": 20
+    },
+    {
+      "node_id": "3817",
+      "keyword": "fæl",
+      "degree": 20
+    },
+    {
+      "node_id": "1217",
+      "keyword": "Treasure, where",
+      "degree": 20
+    },
+    {
+      "node_id": "1723",
+      "keyword": "hæve",
+      "degree": 20
+    },
+    {
+      "node_id": "5206",
+      "keyword": "englænder",
+      "degree": 20
+    },
+    {
+      "node_id": "2474",
+      "keyword": "frost",
+      "degree": 20
+    },
+    {
+      "node_id": "694",
+      "keyword": "røre",
+      "degree": 20
+    },
+    {
+      "node_id": "4794",
+      "keyword": "Krohn",
+      "degree": 19
+    },
+    {
+      "node_id": "3797",
+      "keyword": "morgen",
+      "degree": 19
+    },
+    {
+      "node_id": "1601",
+      "keyword": "syn",
+      "degree": 18
+    },
+    {
+      "node_id": "2660",
+      "keyword": "føl",
+      "degree": 18
+    },
+    {
+      "node_id": "7427",
+      "keyword": "bløde",
+      "degree": 17
+    },
+    {
+      "node_id": "940",
+      "keyword": "svensker",
+      "degree": 17
+    },
+    {
+      "node_id": "1023",
+      "keyword": "bie",
+      "degree": 15
+    },
+    {
+      "node_id": "6581",
+      "keyword": "arrestere",
+      "degree": 15
+    },
+    {
+      "node_id": "3389",
+      "keyword": "tigger",
+      "degree": 15
+    },
+    {
+      "node_id": "2268",
+      "keyword": "man",
+      "degree": 15
+    },
+    {
+      "node_id": "1256",
+      "keyword": "ynkelig",
+      "degree": 15
+    },
+    {
+      "node_id": "5620",
+      "keyword": "Ornat",
+      "degree": 15
+    },
+    {
+      "node_id": "831",
+      "keyword": "ghosts",
+      "degree": 14
+    },
+    {
+      "node_id": "5967",
+      "keyword": "Girl",
+      "degree": 14
+    },
+    {
+      "node_id": "2493",
+      "keyword": "hul",
+      "degree": 14
+    },
+    {
+      "node_id": "3714",
+      "keyword": "gid",
+      "degree": 14
+    },
+    {
+      "node_id": "1379",
+      "keyword": "putter",
+      "degree": 14
+    },
+    {
+      "node_id": "1643",
+      "keyword": "gjemme",
+      "degree": 14
+    },
+    {
+      "node_id": "4420",
+      "keyword": "kjæltring",
+      "degree": 14
+    },
+    {
+      "node_id": "2369",
+      "keyword": "hule",
+      "degree": 14
+    },
+    {
+      "node_id": "5462",
+      "keyword": "holge",
+      "degree": 14
+    },
+    {
+      "node_id": "1566",
+      "keyword": "mave",
+      "degree": 14
+    },
+    {
+      "node_id": "4172",
+      "keyword": "blodplet",
+      "degree": 14
+    },
+    {
+      "node_id": "4350",
+      "keyword": "skomager",
+      "degree": 14
+    },
+    {
+      "node_id": "4315",
+      "keyword": "værd",
+      "degree": 13
+    },
+    {
+      "node_id": "1009",
+      "keyword": "lispund",
+      "degree": 13
+    },
+    {
+      "node_id": "682",
+      "keyword": "kvart",
+      "degree": 13
+    },
+    {
+      "node_id": "4582",
+      "keyword": "dagligstue",
+      "degree": 13
+    },
+    {
+      "node_id": "6637",
+      "keyword": "Sperling und Wolf",
+      "degree": 13
+    },
+    {
+      "node_id": "1827",
+      "keyword": "tirsdag",
+      "degree": 13
+    },
+    {
+      "node_id": "7561",
+      "keyword": "klud",
+      "degree": 13
+    },
+    {
+      "node_id": "2948",
+      "keyword": "ugudelig",
+      "degree": 13
+    },
+    {
+      "node_id": "3001",
+      "keyword": "kunst",
+      "degree": 13
+    },
+    {
+      "node_id": "1805",
+      "keyword": "engelskmand",
+      "degree": 13
+    },
+    {
+      "node_id": "5957",
+      "keyword": "måneskin",
+      "degree": 13
+    },
+    {
+      "node_id": "1689",
+      "keyword": "ovenpå",
+      "degree": 12
+    },
+    {
+      "node_id": "1370",
+      "keyword": "do",
+      "degree": 12
+    },
+    {
+      "node_id": "4653",
+      "keyword": "Schuster",
+      "degree": 12
+    },
+    {
+      "node_id": "2828",
+      "keyword": "strænge",
+      "degree": 12
+    },
+    {
+      "node_id": "4173",
+      "keyword": "plet",
+      "degree": 12
+    },
+    {
+      "node_id": "286",
+      "keyword": "haard",
+      "degree": 12
+    },
+    {
+      "node_id": "392",
+      "keyword": "herom",
+      "degree": 12
+    },
+    {
+      "node_id": "3806",
+      "keyword": "karm",
+      "degree": 12
+    },
+    {
+      "node_id": "3409",
+      "keyword": "bruger",
+      "degree": 12
+    },
+    {
+      "node_id": "3501",
+      "keyword": "frokost",
+      "degree": 12
+    },
+    {
+      "node_id": "6449",
+      "keyword": "lukker",
+      "degree": 12
+    },
+    {
+      "node_id": "3061",
+      "keyword": "akkurat",
+      "degree": 12
+    },
+    {
+      "node_id": "1371",
+      "keyword": "allerbedst",
+      "degree": 12
+    },
+    {
+      "node_id": "7305",
+      "keyword": "Hebammendienst",
+      "degree": 12
+    },
+    {
+      "node_id": "5327",
+      "keyword": "Brunnen",
+      "degree": 12
+    },
+    {
+      "node_id": "796",
+      "keyword": "krage",
+      "degree": 12
+    },
+    {
+      "node_id": "3265",
+      "keyword": "sikken",
+      "degree": 11
+    },
+    {
+      "node_id": "944",
+      "keyword": "masse",
+      "degree": 11
+    },
+    {
+      "node_id": "1315",
+      "keyword": "gelähmt",
+      "degree": 11
+    },
+    {
+      "node_id": "1034",
+      "keyword": "modtage",
+      "degree": 11
+    },
+    {
+      "node_id": "2037",
+      "keyword": "drev",
+      "degree": 11
+    },
+    {
+      "node_id": "2768",
+      "keyword": "gulv",
+      "degree": 11
+    },
+    {
+      "node_id": "4531",
+      "keyword": "frakke",
+      "degree": 11
+    },
+    {
+      "node_id": "1058",
+      "keyword": "følgeskab",
+      "degree": 11
+    },
+    {
+      "node_id": "5846",
+      "keyword": "bondegård",
+      "degree": 11
+    },
+    {
+      "node_id": "7065",
+      "keyword": "dragon",
+      "degree": 11
+    },
+    {
+      "node_id": "2579",
+      "keyword": "gade",
+      "degree": 11
+    },
+    {
+      "node_id": "906",
+      "keyword": "sæde",
+      "degree": 11
+    },
+    {
+      "node_id": "607",
+      "keyword": "sagtens",
+      "degree": 11
+    },
+    {
+      "node_id": "2773",
+      "keyword": "samtale",
+      "degree": 11
+    },
+    {
+      "node_id": "1495",
+      "keyword": "weiblich: Namen",
+      "degree": 11
+    },
+    {
+      "node_id": "2740",
+      "keyword": "sovn",
+      "degree": 11
+    },
+    {
+      "node_id": "278",
+      "keyword": "forholde",
+      "degree": 11
+    },
+    {
+      "node_id": "222",
+      "keyword": "sydvest",
+      "degree": 11
+    },
+    {
+      "node_id": "1062",
+      "keyword": "Frucht",
+      "degree": 11
+    },
+    {
+      "node_id": "6115",
+      "keyword": "indhegne",
+      "degree": 11
+    },
+    {
+      "node_id": "2685",
+      "keyword": "Fundament",
+      "degree": 11
+    },
+    {
+      "node_id": "2071",
+      "keyword": "Commander: so true",
+      "degree": 11
+    },
+    {
+      "node_id": "1593",
+      "keyword": "erschlagen",
+      "degree": 11
+    },
+    {
+      "node_id": "458",
+      "keyword": "skjøn",
+      "degree": 11
+    },
+    {
+      "node_id": "5838",
+      "keyword": "stjaale",
+      "degree": 11
+    },
+    {
+      "node_id": "6918",
+      "keyword": "krigsfolk",
+      "degree": 11
+    },
+    {
+      "node_id": "11768",
+      "keyword": "dyg",
+      "degree": 11
+    },
+    {
+      "node_id": "2362",
+      "keyword": "aaben",
+      "degree": 11
+    },
+    {
+      "node_id": "4268",
+      "keyword": "Dead: Redit [returns]",
+      "degree": 11
+    },
+    {
+      "node_id": "8387",
+      "keyword": "dølgsmål",
+      "degree": 11
+    },
+    {
+      "node_id": "2305",
+      "keyword": "udskifte",
+      "degree": 11
+    },
+    {
+      "node_id": "3837",
+      "keyword": "ualmindelig",
+      "degree": 10
+    },
+    {
+      "node_id": "2993",
+      "keyword": "beackern",
+      "degree": 10
+    },
+    {
+      "node_id": "2733",
+      "keyword": "skarp",
+      "degree": 10
+    },
+    {
+      "node_id": "2468",
+      "keyword": "ræd",
+      "degree": 10
+    },
+    {
+      "node_id": "2210",
+      "keyword": "pind",
+      "degree": 10
+    },
+    {
+      "node_id": "476",
+      "keyword": "sværd",
+      "degree": 10
+    },
+    {
+      "node_id": "2747",
+      "keyword": "opmærksom",
+      "degree": 10
+    },
+    {
+      "node_id": "7386",
+      "keyword": "adskillig",
+      "degree": 10
+    },
+    {
+      "node_id": "659",
+      "keyword": "bede",
+      "degree": 10
+    },
+    {
+      "node_id": "1320",
+      "keyword": "Knüppel",
+      "degree": 10
+    },
+    {
+      "node_id": "832",
+      "keyword": "Gespenster",
+      "degree": 10
+    },
+    {
+      "node_id": "6248",
+      "keyword": "polak",
+      "degree": 10
+    },
+    {
+      "node_id": "1296",
+      "keyword": "fjerde",
+      "degree": 10
+    },
+    {
+      "node_id": "3868",
+      "keyword": "kvæle",
+      "degree": 10
+    },
+    {
+      "node_id": "3080",
+      "keyword": "vendsyssel",
+      "degree": 10
+    },
+    {
+      "node_id": "3560",
+      "keyword": "Strand",
+      "degree": 10
+    },
+    {
+      "node_id": "2283",
+      "keyword": "stolpe",
+      "degree": 10
+    },
+    {
+      "node_id": "3935",
+      "keyword": "stakkel",
+      "degree": 10
+    },
+    {
+      "node_id": "4840",
+      "keyword": "fryse",
+      "degree": 10
+    },
+    {
+      "node_id": "1524",
+      "keyword": "feje",
+      "degree": 10
+    },
+    {
+      "node_id": "1270",
+      "keyword": "bæk",
+      "degree": 10
+    },
+    {
+      "node_id": "1932",
+      "keyword": "løs",
+      "degree": 10
+    },
+    {
+      "node_id": "3279",
+      "keyword": "Zigeuner",
+      "degree": 10
+    },
+    {
+      "node_id": "1515",
+      "keyword": "Prophezeiung",
+      "degree": 10
+    },
+    {
+      "node_id": "3715",
+      "keyword": "nøde",
+      "degree": 10
+    },
+    {
+      "node_id": "4056",
+      "keyword": "enes",
+      "degree": 10
+    },
+    {
+      "node_id": "1961",
+      "keyword": "hvorfra",
+      "degree": 10
+    },
+    {
+      "node_id": "3545",
+      "keyword": "travl",
+      "degree": 10
+    },
+    {
+      "node_id": "1617",
+      "keyword": "adel. Fam.",
+      "degree": 10
+    },
+    {
+      "node_id": "424",
+      "keyword": "dryppe",
+      "degree": 10
+    },
+    {
+      "node_id": "3592",
+      "keyword": "maleri",
+      "degree": 10
+    },
+    {
+      "node_id": "4063",
+      "keyword": "velstand",
+      "degree": 10
+    },
+    {
+      "node_id": "1446",
+      "keyword": "tykkes",
+      "degree": 10
+    },
+    {
+      "node_id": "2743",
+      "keyword": "vågen",
+      "degree": 10
+    },
+    {
+      "node_id": "544",
+      "keyword": "Lake, Victim, varia",
+      "degree": 10
+    },
+    {
+      "node_id": "2550",
+      "keyword": "ble",
+      "degree": 10
+    },
+    {
+      "node_id": "263",
+      "keyword": "person",
+      "degree": 10
+    },
+    {
+      "node_id": "683",
+      "keyword": "skridt",
+      "degree": 10
+    },
+    {
+      "node_id": "3688",
+      "keyword": "hang",
+      "degree": 10
+    },
+    {
+      "node_id": "3289",
+      "keyword": "fri",
+      "degree": 10
+    },
+    {
+      "node_id": "4570",
+      "keyword": "tilligemed",
+      "degree": 10
+    },
+    {
+      "node_id": "1278",
+      "keyword": "oprindelig",
+      "degree": 10
+    },
+    {
+      "node_id": "97",
+      "keyword": "lykkelig",
+      "degree": 10
+    },
+    {
+      "node_id": "5196",
+      "keyword": "rest",
+      "degree": 10
+    },
+    {
+      "node_id": "9996",
+      "keyword": "kgl",
+      "degree": 10
+    },
+    {
+      "node_id": "2000",
+      "keyword": "midnatstid",
+      "degree": 10
+    },
+    {
+      "node_id": "2361",
+      "keyword": "aftale",
+      "degree": 10
+    },
+    {
+      "node_id": "7157",
+      "keyword": "sporløs",
+      "degree": 10
+    },
+    {
+      "node_id": "3308",
+      "keyword": "Liebeszauber: Silvester",
+      "degree": 10
+    },
+    {
+      "node_id": "1243",
+      "keyword": "megen",
+      "degree": 10
+    },
+    {
+      "node_id": "221",
+      "keyword": "tvinge",
+      "degree": 10
+    },
+    {
+      "node_id": "3451",
+      "keyword": "suse",
+      "degree": 10
+    },
+    {
+      "node_id": "20292",
+      "keyword": "krandse",
+      "degree": 10
+    },
+    {
+      "node_id": "3772",
+      "keyword": "sti",
+      "degree": 10
+    },
+    {
+      "node_id": "7610",
+      "keyword": "lighed",
+      "degree": 10
+    },
+    {
+      "node_id": "3142",
+      "keyword": "hu",
+      "degree": 10
+    },
+    {
+      "node_id": "3699",
+      "keyword": "mørkning",
+      "degree": 10
+    },
+    {
+      "node_id": "2170",
+      "keyword": "begive",
+      "degree": 10
+    },
+    {
+      "node_id": "1720",
+      "keyword": "spøg",
+      "degree": 10
+    },
+    {
+      "node_id": "997",
+      "keyword": "forbyde",
+      "degree": 10
+    },
+    {
+      "node_id": "3071",
+      "keyword": "svire",
+      "degree": 10
+    },
+    {
+      "node_id": "975",
+      "keyword": "tidlig",
+      "degree": 10
+    },
+    {
+      "node_id": "4676",
+      "keyword": "madmoder",
+      "degree": 10
+    },
+    {
+      "node_id": "740",
+      "keyword": "stenbro",
+      "degree": 10
+    },
+    {
+      "node_id": "6251",
+      "keyword": "indkvartering",
+      "degree": 10
+    },
+    {
+      "node_id": "2929",
+      "keyword": "rolig",
+      "degree": 10
+    },
+    {
+      "node_id": "9852",
+      "keyword": "sommerdag",
+      "degree": 10
+    }
+  ]
+}

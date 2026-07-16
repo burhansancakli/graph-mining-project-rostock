@@ -1,0 +1,921 @@
+{
+  "algorithm": "Louvain",
+  "dataset": "denmark",
+  "modularity": 0.4083805754959794,
+  "n_communities": 22,
+  "min_cooccurrence": 10,
+  "min_component_size": 100,
+  "graph_nodes": 1451,
+  "graph_edges": 7159,
+  "quality": {
+    "modularity": 0.4083805754959794,
+    "graph_density": 0.006805,
+    "total_weight": 91833,
+    "intra_community_weight": 52555.0,
+    "inter_community_weight": 39278.0,
+    "cut_ratio": 0.4277,
+    "avg_conductance": 0.365,
+    "avg_internal_density": 4.1502,
+    "size_entropy": 3.6432,
+    "max_size_ratio": 156.0,
+    "communities": [
+      {
+        "community": 19,
+        "size": 120,
+        "internal_weight": 5379.0,
+        "cut_weight": 8282.0,
+        "volume": 19040,
+        "conductance": 0.435,
+        "internal_density": 0.7534
+      },
+      {
+        "community": 1,
+        "size": 312,
+        "internal_weight": 18946.0,
+        "cut_weight": 24336.0,
+        "volume": 62228,
+        "conductance": 0.3911,
+        "internal_density": 0.3905
+      },
+      {
+        "community": 5,
+        "size": 40,
+        "internal_weight": 1160.0,
+        "cut_weight": 1713.0,
+        "volume": 4033,
+        "conductance": 0.4247,
+        "internal_density": 1.4872
+      },
+      {
+        "community": 6,
+        "size": 131,
+        "internal_weight": 3797.0,
+        "cut_weight": 7629.0,
+        "volume": 15223,
+        "conductance": 0.5011,
+        "internal_density": 0.4459
+      },
+      {
+        "community": 4,
+        "size": 186,
+        "internal_weight": 5211.0,
+        "cut_weight": 14336.0,
+        "volume": 24758,
+        "conductance": 0.579,
+        "internal_density": 0.3029
+      },
+      {
+        "community": 7,
+        "size": 119,
+        "internal_weight": 3536.0,
+        "cut_weight": 3681.0,
+        "volume": 10753,
+        "conductance": 0.3423,
+        "internal_density": 0.5036
+      },
+      {
+        "community": 8,
+        "size": 46,
+        "internal_weight": 3420.0,
+        "cut_weight": 296.0,
+        "volume": 7136,
+        "conductance": 0.0415,
+        "internal_density": 3.3043
+      },
+      {
+        "community": 9,
+        "size": 62,
+        "internal_weight": 1053.0,
+        "cut_weight": 1582.0,
+        "volume": 3688,
+        "conductance": 0.429,
+        "internal_density": 0.5568
+      },
+      {
+        "community": 12,
+        "size": 102,
+        "internal_weight": 2451.0,
+        "cut_weight": 3370.0,
+        "volume": 8272,
+        "conductance": 0.4074,
+        "internal_density": 0.4758
+      },
+      {
+        "community": 11,
+        "size": 10,
+        "internal_weight": 151.0,
+        "cut_weight": 246.0,
+        "volume": 548,
+        "conductance": 0.4489,
+        "internal_density": 3.3556
+      },
+      {
+        "community": 17,
+        "size": 37,
+        "internal_weight": 817.0,
+        "cut_weight": 1958.0,
+        "volume": 3592,
+        "conductance": 0.5451,
+        "internal_density": 1.2267
+      },
+      {
+        "community": 13,
+        "size": 83,
+        "internal_weight": 2310.0,
+        "cut_weight": 4937.0,
+        "volume": 9557,
+        "conductance": 0.5166,
+        "internal_density": 0.6788
+      },
+      {
+        "community": 20,
+        "size": 100,
+        "internal_weight": 2244.0,
+        "cut_weight": 3241.0,
+        "volume": 7729,
+        "conductance": 0.4193,
+        "internal_density": 0.4533
+      },
+      {
+        "community": 15,
+        "size": 23,
+        "internal_weight": 500.0,
+        "cut_weight": 864.0,
+        "volume": 1864,
+        "conductance": 0.4635,
+        "internal_density": 1.9763
+      },
+      {
+        "community": 0,
+        "size": 51,
+        "internal_weight": 1140.0,
+        "cut_weight": 1802.0,
+        "volume": 4082,
+        "conductance": 0.4415,
+        "internal_density": 0.8941
+      },
+      {
+        "community": 18,
+        "size": 5,
+        "internal_weight": 127.0,
+        "cut_weight": 66.0,
+        "volume": 320,
+        "conductance": 0.2062,
+        "internal_density": 12.7
+      },
+      {
+        "community": 2,
+        "size": 10,
+        "internal_weight": 171.0,
+        "cut_weight": 123.0,
+        "volume": 465,
+        "conductance": 0.2645,
+        "internal_density": 3.8
+      },
+      {
+        "community": 3,
+        "size": 3,
+        "internal_weight": 26.0,
+        "cut_weight": 11.0,
+        "volume": 63,
+        "conductance": 0.1746,
+        "internal_density": 8.6667
+      },
+      {
+        "community": 10,
+        "size": 3,
+        "internal_weight": 34.0,
+        "cut_weight": 32.0,
+        "volume": 100,
+        "conductance": 0.32,
+        "internal_density": 11.3333
+      },
+      {
+        "community": 14,
+        "size": 3,
+        "internal_weight": 27.0,
+        "cut_weight": 10.0,
+        "volume": 64,
+        "conductance": 0.1562,
+        "internal_density": 9.0
+      },
+      {
+        "community": 16,
+        "size": 2,
+        "internal_weight": 16.0,
+        "cut_weight": 10.0,
+        "volume": 42,
+        "conductance": 0.2381,
+        "internal_density": 16.0
+      },
+      {
+        "community": 21,
+        "size": 3,
+        "internal_weight": 39.0,
+        "cut_weight": 31.0,
+        "volume": 109,
+        "conductance": 0.2844,
+        "internal_density": 13.0
+      }
+    ]
+  },
+  "communities": [
+    {
+      "community": 1,
+      "size": 312,
+      "top_keywords": [
+        "stille",
+        "følge",
+        "binde",
+        "øre",
+        "væg",
+        "tænde",
+        "række",
+        "smide"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 186,
+      "top_keywords": [
+        "time",
+        "ende",
+        "historie",
+        "ønske",
+        "søge",
+        "begynde",
+        "bringe",
+        "nævne"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 131,
+      "top_keywords": [
+        "samle",
+        "by",
+        "betale",
+        "holde",
+        "synge",
+        "trold",
+        "drikke",
+        "gifte"
+      ]
+    },
+    {
+      "community": 19,
+      "size": 120,
+      "top_keywords": [
+        "skrive",
+        "forlade",
+        "tie",
+        "himmel",
+        "ed",
+        "stol",
+        "give",
+        "tro"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 119,
+      "top_keywords": [
+        "koge",
+        "varm",
+        "middag",
+        "æde",
+        "spise",
+        "kaffe",
+        "grød",
+        "kage"
+      ]
+    },
+    {
+      "community": 12,
+      "size": 102,
+      "top_keywords": [
+        "sejle",
+        "krig",
+        "konge",
+        "fiske",
+        "vinde",
+        "soldat",
+        "fjende",
+        "skjule"
+      ]
+    },
+    {
+      "community": 20,
+      "size": 100,
+      "top_keywords": [
+        "mur",
+        "kirke",
+        "hugge",
+        "træ",
+        "klokke",
+        "skjorte",
+        "gro",
+        "låne"
+      ]
+    },
+    {
+      "community": 13,
+      "size": 83,
+      "top_keywords": [
+        "fange",
+        "træffe",
+        "jage",
+        "skyde",
+        "bøsse",
+        "fare",
+        "kræmmer",
+        "røver"
+      ]
+    },
+    {
+      "community": 9,
+      "size": 62,
+      "top_keywords": [
+        "begrave",
+        "kjedel",
+        "præstegaard",
+        "lig",
+        "ligkiste",
+        "ligskare",
+        "begravelse",
+        "pest"
+      ]
+    },
+    {
+      "community": 0,
+      "size": 51,
+      "top_keywords": [
+        "kraft",
+        "sygdom",
+        "heks",
+        "doktor",
+        "kurer",
+        "læge",
+        "torsdag",
+        "dårlig"
+      ]
+    },
+    {
+      "community": 8,
+      "size": 46,
+      "top_keywords": [
+        "mæn",
+        "ve",
+        "kue",
+        "sæ",
+        "go",
+        "kam",
+        "si",
+        "åppe"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 40,
+      "top_keywords": [
+        "føde",
+        "lindorm",
+        "dræbe",
+        "tyr",
+        "orme",
+        "horn",
+        "tyre",
+        "kamp"
+      ]
+    },
+    {
+      "community": 17,
+      "size": 37,
+      "top_keywords": [
+        "spøge",
+        "klage",
+        "mælde",
+        "gjenganger",
+        "pæl",
+        "gjenfærd",
+        "gje",
+        "høre"
+      ]
+    },
+    {
+      "community": 15,
+      "size": 23,
+      "top_keywords": [
+        "tønde",
+        "sæk",
+        "nisse",
+        "slås",
+        "ni",
+        "skjæppe",
+        "sen",
+        "lo"
+      ]
+    },
+    {
+      "community": 11,
+      "size": 10,
+      "top_keywords": [
+        "øge",
+        "øg",
+        "føle",
+        "grå",
+        "jærn",
+        "smed",
+        "smedje",
+        "brun"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 10,
+      "top_keywords": [
+        "stork",
+        "flyve",
+        "fugl",
+        "rede",
+        "flyver",
+        "forår",
+        "vibe",
+        "efterår"
+      ]
+    },
+    {
+      "community": 18,
+      "size": 5,
+      "top_keywords": [
+        "genne",
+        "in",
+        "mor",
+        "gene",
+        "ryg"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 3,
+      "top_keywords": [
+        "nærme",
+        "kokketrin",
+        "nå"
+      ]
+    },
+    {
+      "community": 10,
+      "size": 3,
+      "top_keywords": [
+        "ling",
+        "kjæl",
+        "skille"
+      ]
+    },
+    {
+      "community": 14,
+      "size": 3,
+      "top_keywords": [
+        "længde",
+        "bredde",
+        "alen"
+      ]
+    },
+    {
+      "community": 21,
+      "size": 3,
+      "top_keywords": [
+        "sandholt",
+        "aand",
+        "fordømme"
+      ]
+    },
+    {
+      "community": 16,
+      "size": 2,
+      "top_keywords": [
+        "strøg",
+        "stryge"
+      ]
+    }
+  ],
+  "werewolf_community": 13,
+  "werewolf_members": [
+    {
+      "node_id": "456",
+      "keyword": "fange",
+      "degree": 1755
+    },
+    {
+      "node_id": "878",
+      "keyword": "træffe",
+      "degree": 1612
+    },
+    {
+      "node_id": "2800",
+      "keyword": "jage",
+      "degree": 654
+    },
+    {
+      "node_id": "1387",
+      "keyword": "skyde",
+      "degree": 569
+    },
+    {
+      "node_id": "1385",
+      "keyword": "bøsse",
+      "degree": 463
+    },
+    {
+      "node_id": "535",
+      "keyword": "fare",
+      "degree": 339
+    },
+    {
+      "node_id": "1971",
+      "keyword": "kræmmer",
+      "degree": 311
+    },
+    {
+      "node_id": "4788",
+      "keyword": "røver",
+      "degree": 238
+    },
+    {
+      "node_id": "3378",
+      "keyword": "ulv",
+      "degree": 210
+    },
+    {
+      "node_id": "1292",
+      "keyword": "skytte",
+      "degree": 199
+    },
+    {
+      "node_id": "776",
+      "keyword": "sølvknap",
+      "degree": 187
+    },
+    {
+      "node_id": "4903",
+      "keyword": "hare",
+      "degree": 182
+    },
+    {
+      "node_id": "2094",
+      "keyword": "jæger",
+      "degree": 154
+    },
+    {
+      "node_id": "2079",
+      "keyword": "opholde",
+      "degree": 146
+    },
+    {
+      "node_id": "1995",
+      "keyword": "skud",
+      "degree": 126
+    },
+    {
+      "node_id": "1534",
+      "keyword": "henrette",
+      "degree": 120
+    },
+    {
+      "node_id": "2181",
+      "keyword": "tand",
+      "degree": 109
+    },
+    {
+      "node_id": "2095",
+      "keyword": "hund",
+      "degree": 105
+    },
+    {
+      "node_id": "2742",
+      "keyword": "kule",
+      "degree": 101
+    },
+    {
+      "node_id": "2739",
+      "keyword": "ramme",
+      "degree": 86
+    },
+    {
+      "node_id": "2976",
+      "keyword": "plyndre",
+      "degree": 85
+    },
+    {
+      "node_id": "3461",
+      "keyword": "lår",
+      "degree": 84
+    },
+    {
+      "node_id": "1382",
+      "keyword": "rasle",
+      "degree": 81
+    },
+    {
+      "node_id": "329",
+      "keyword": "underlig",
+      "degree": 66
+    },
+    {
+      "node_id": "3407",
+      "keyword": "tandpine",
+      "degree": 61
+    },
+    {
+      "node_id": "3608",
+      "keyword": "arrest",
+      "degree": 59
+    },
+    {
+      "node_id": "2981",
+      "keyword": "flok",
+      "degree": 58
+    },
+    {
+      "node_id": "207",
+      "keyword": "bed",
+      "degree": 55
+    },
+    {
+      "node_id": "750",
+      "keyword": "tude",
+      "degree": 55
+    },
+    {
+      "node_id": "3739",
+      "keyword": "overfalde",
+      "degree": 55
+    },
+    {
+      "node_id": "5210",
+      "keyword": "røve",
+      "degree": 52
+    },
+    {
+      "node_id": "6311",
+      "keyword": "lade",
+      "degree": 50
+    },
+    {
+      "node_id": "2265",
+      "keyword": "lænke",
+      "degree": 45
+    },
+    {
+      "node_id": "1386",
+      "keyword": "skod",
+      "degree": 45
+    },
+    {
+      "node_id": "2178",
+      "keyword": "klippe",
+      "degree": 43
+    },
+    {
+      "node_id": "2338",
+      "keyword": "kjæde",
+      "degree": 42
+    },
+    {
+      "node_id": "4422",
+      "keyword": "bekjende",
+      "degree": 41
+    },
+    {
+      "node_id": "5275",
+      "keyword": "varulv",
+      "degree": 39
+    },
+    {
+      "node_id": "1544",
+      "keyword": "heldig",
+      "degree": 38
+    },
+    {
+      "node_id": "2692",
+      "keyword": "gjæs",
+      "degree": 37
+    },
+    {
+      "node_id": "5576",
+      "keyword": "negl",
+      "degree": 36
+    },
+    {
+      "node_id": "3503",
+      "keyword": "vidne",
+      "degree": 34
+    },
+    {
+      "node_id": "4709",
+      "keyword": "mistanke",
+      "degree": 34
+    },
+    {
+      "node_id": "6358",
+      "keyword": "kræmme",
+      "degree": 33
+    },
+    {
+      "node_id": "7667",
+      "keyword": "bekje",
+      "degree": 33
+    },
+    {
+      "node_id": "475",
+      "keyword": "kugle",
+      "degree": 32
+    },
+    {
+      "node_id": "450",
+      "keyword": "farlig",
+      "degree": 31
+    },
+    {
+      "node_id": "5524",
+      "keyword": "landmåler",
+      "degree": 27
+    },
+    {
+      "node_id": "1942",
+      "keyword": "myrde",
+      "degree": 26
+    },
+    {
+      "node_id": "1021",
+      "keyword": "stage",
+      "degree": 25
+    },
+    {
+      "node_id": "2281",
+      "keyword": "mer",
+      "degree": 24
+    },
+    {
+      "node_id": "530",
+      "keyword": "tunge",
+      "degree": 24
+    },
+    {
+      "node_id": "3506",
+      "keyword": "kram",
+      "degree": 23
+    },
+    {
+      "node_id": "2751",
+      "keyword": "rar",
+      "degree": 22
+    },
+    {
+      "node_id": "3611",
+      "keyword": "halshugge",
+      "degree": 22
+    },
+    {
+      "node_id": "1064",
+      "keyword": "enkelt",
+      "degree": 21
+    },
+    {
+      "node_id": "1505",
+      "keyword": "klipper",
+      "degree": 21
+    },
+    {
+      "node_id": "478",
+      "keyword": "ligefrem",
+      "degree": 20
+    },
+    {
+      "node_id": "2247",
+      "keyword": "and",
+      "degree": 20
+    },
+    {
+      "node_id": "5403",
+      "keyword": "ulvegrav",
+      "degree": 16
+    },
+    {
+      "node_id": "1876",
+      "keyword": "saks",
+      "degree": 16
+    },
+    {
+      "node_id": "2317",
+      "keyword": "sigte",
+      "degree": 16
+    },
+    {
+      "node_id": "6581",
+      "keyword": "arrestere",
+      "degree": 15
+    },
+    {
+      "node_id": "4425",
+      "keyword": "røverkule",
+      "degree": 15
+    },
+    {
+      "node_id": "831",
+      "keyword": "lykkes",
+      "degree": 14
+    },
+    {
+      "node_id": "5805",
+      "keyword": "fatte",
+      "degree": 14
+    },
+    {
+      "node_id": "2369",
+      "keyword": "hule",
+      "degree": 14
+    },
+    {
+      "node_id": "751",
+      "keyword": "ugle",
+      "degree": 12
+    },
+    {
+      "node_id": "5976",
+      "keyword": "rettersted",
+      "degree": 12
+    },
+    {
+      "node_id": "1113",
+      "keyword": "flokke",
+      "degree": 11
+    },
+    {
+      "node_id": "2936",
+      "keyword": "skelet",
+      "degree": 11
+    },
+    {
+      "node_id": "2232",
+      "keyword": "dømme",
+      "degree": 11
+    },
+    {
+      "node_id": "3876",
+      "keyword": "gnave",
+      "degree": 11
+    },
+    {
+      "node_id": "673",
+      "keyword": "ræv",
+      "degree": 11
+    },
+    {
+      "node_id": "2938",
+      "keyword": "bissekræmmer",
+      "degree": 11
+    },
+    {
+      "node_id": "2553",
+      "keyword": "ram",
+      "degree": 11
+    },
+    {
+      "node_id": "8502",
+      "keyword": "hingst",
+      "degree": 11
+    },
+    {
+      "node_id": "2150",
+      "keyword": "kast",
+      "degree": 10
+    },
+    {
+      "node_id": "832",
+      "keyword": "bilde",
+      "degree": 10
+    },
+    {
+      "node_id": "7682",
+      "keyword": "gjås",
+      "degree": 10
+    },
+    {
+      "node_id": "3295",
+      "keyword": "vild",
+      "degree": 10
+    },
+    {
+      "node_id": "1137",
+      "keyword": "to",
+      "degree": 10
+    },
+    {
+      "node_id": "13452",
+      "keyword": "folie",
+      "degree": 10
+    }
+  ]
+}

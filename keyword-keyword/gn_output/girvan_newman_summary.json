@@ -1,0 +1,9 @@
+{
+  "iceland": {
+    "modularity": 0.000533888261456329,
+    "n_communities": 2,
+    "graph_nodes": 234,
+    "graph_edges": 2345,
+    "werewolf_community": null
+  }
+}

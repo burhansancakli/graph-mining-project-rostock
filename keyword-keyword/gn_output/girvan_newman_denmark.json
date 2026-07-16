@@ -1,0 +1,122 @@
+{
+  "algorithm": "Girvan-Newman",
+  "dataset": "denmark",
+  "modularity": 0.1014127318813869,
+  "n_communities": 12,
+  "min_weight": 5,
+  "max_nodes": 300,
+  "graph_nodes": 300,
+  "graph_edges": 4030,
+  "communities": [
+    {
+      "community": 0,
+      "size": 263,
+      "top_keywords": [
+        "skrive",
+        "stille",
+        "time",
+        "følge",
+        "ende",
+        "træffe",
+        "fange",
+        "samle"
+      ]
+    },
+    {
+      "community": 1,
+      "size": 17,
+      "top_keywords": [
+        "ve",
+        "mæn",
+        "kue",
+        "sæ",
+        "si",
+        "kam",
+        "go",
+        "åppe"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 5,
+      "top_keywords": [
+        "lindorm",
+        "tyr",
+        "tyre",
+        "kamp",
+        "orme"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 4,
+      "top_keywords": [
+        "skytte",
+        "hare",
+        "sølvknap",
+        "jæger"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 3,
+      "top_keywords": [
+        "bruden",
+        "brud",
+        "brudgom"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 2,
+      "top_keywords": [
+        "kjærn",
+        "malke"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 1,
+      "top_keywords": [
+        "biskop"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 1,
+      "top_keywords": [
+        "strande"
+      ]
+    },
+    {
+      "community": 8,
+      "size": 1,
+      "top_keywords": [
+        "fløde"
+      ]
+    },
+    {
+      "community": 9,
+      "size": 1,
+      "top_keywords": [
+        "ligskare"
+      ]
+    },
+    {
+      "community": 10,
+      "size": 1,
+      "top_keywords": [
+        "ligkiste"
+      ]
+    },
+    {
+      "community": 11,
+      "size": 1,
+      "top_keywords": [
+        "torsdag"
+      ]
+    }
+  ],
+  "werewolf_community": null,
+  "werewolf_members": []
+}

@@ -1,0 +1,526 @@
+{
+  "algorithm": "Louvain",
+  "dataset": "mecklenburg",
+  "modularity": 0.7974816365289713,
+  "n_communities": 14,
+  "min_cooccurrence": 3,
+  "min_component_size": 30,
+  "graph_nodes": 998,
+  "graph_edges": 5397,
+  "quality": {
+    "modularity": 0.7974816365289713,
+    "graph_density": 0.010848,
+    "total_weight": 77254,
+    "intra_community_weight": 71713.0,
+    "inter_community_weight": 5541.0,
+    "cut_ratio": 0.0717,
+    "avg_conductance": 0.0841,
+    "avg_internal_density": 2.668,
+    "size_entropy": 3.4995,
+    "max_size_ratio": 8.74,
+    "communities": [
+      {
+        "community": 4,
+        "size": 142,
+        "internal_weight": 11960.0,
+        "cut_weight": 1286.0,
+        "volume": 25206,
+        "conductance": 0.051,
+        "internal_density": 1.1947
+      },
+      {
+        "community": 13,
+        "size": 139,
+        "internal_weight": 9562.0,
+        "cut_weight": 2452.0,
+        "volume": 21576,
+        "conductance": 0.1136,
+        "internal_density": 0.997
+      },
+      {
+        "community": 9,
+        "size": 201,
+        "internal_weight": 16863.0,
+        "cut_weight": 2046.0,
+        "volume": 35772,
+        "conductance": 0.0572,
+        "internal_density": 0.839
+      },
+      {
+        "community": 5,
+        "size": 71,
+        "internal_weight": 2815.0,
+        "cut_weight": 753.0,
+        "volume": 6383,
+        "conductance": 0.118,
+        "internal_density": 1.1328
+      },
+      {
+        "community": 6,
+        "size": 38,
+        "internal_weight": 1869.0,
+        "cut_weight": 300.0,
+        "volume": 4038,
+        "conductance": 0.0743,
+        "internal_density": 2.6586
+      },
+      {
+        "community": 7,
+        "size": 67,
+        "internal_weight": 7301.0,
+        "cut_weight": 666.0,
+        "volume": 15268,
+        "conductance": 0.0436,
+        "internal_density": 3.3021
+      },
+      {
+        "community": 8,
+        "size": 35,
+        "internal_weight": 902.0,
+        "cut_weight": 121.0,
+        "volume": 1925,
+        "conductance": 0.0629,
+        "internal_density": 1.516
+      },
+      {
+        "community": 11,
+        "size": 64,
+        "internal_weight": 8056.0,
+        "cut_weight": 802.0,
+        "volume": 16914,
+        "conductance": 0.0474,
+        "internal_density": 3.996
+      },
+      {
+        "community": 12,
+        "size": 37,
+        "internal_weight": 4225.0,
+        "cut_weight": 650.0,
+        "volume": 9100,
+        "conductance": 0.0714,
+        "internal_density": 6.3438
+      },
+      {
+        "community": 1,
+        "size": 67,
+        "internal_weight": 2209.0,
+        "cut_weight": 428.0,
+        "volume": 4846,
+        "conductance": 0.0883,
+        "internal_density": 0.9991
+      },
+      {
+        "community": 3,
+        "size": 23,
+        "internal_weight": 2159.0,
+        "cut_weight": 743.0,
+        "volume": 5061,
+        "conductance": 0.1468,
+        "internal_density": 8.5336
+      },
+      {
+        "community": 0,
+        "size": 35,
+        "internal_weight": 2232.0,
+        "cut_weight": 339.0,
+        "volume": 4803,
+        "conductance": 0.0706,
+        "internal_density": 3.7513
+      },
+      {
+        "community": 2,
+        "size": 41,
+        "internal_weight": 645.0,
+        "cut_weight": 48.0,
+        "volume": 1338,
+        "conductance": 0.0359,
+        "internal_density": 0.7866
+      },
+      {
+        "community": 10,
+        "size": 38,
+        "internal_weight": 915.0,
+        "cut_weight": 448.0,
+        "volume": 2278,
+        "conductance": 0.1967,
+        "internal_density": 1.3016
+      }
+    ]
+  },
+  "communities": [
+    {
+      "community": 9,
+      "size": 201,
+      "top_keywords": [
+        "Frevel",
+        "Frevelsage",
+        "sacrilege",
+        "tragen",
+        "Ring",
+        "Halskette",
+        "to wear a chain, ring",
+        "Kette tragen, Ring"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 142,
+      "top_keywords": [
+        "Hexe",
+        "witches",
+        "Hexen",
+        "Blocksberg",
+        "buttern",
+        "tu churn butter",
+        "to churn butter",
+        "Buttern"
+      ]
+    },
+    {
+      "community": 13,
+      "size": 139,
+      "top_keywords": [
+        "Lokalsage",
+        "local legends: varia",
+        "Lokalsagen: Varia",
+        "Lokalsagen",
+        "local legends",
+        "Berg",
+        "treasure",
+        "Schätze"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 71,
+      "top_keywords": [
+        "Tiersage",
+        "Tiermärchen",
+        "Tiersagen, Märchen I",
+        "Fuchs",
+        "Wolf",
+        "Schwein",
+        "Storch",
+        "krank"
+      ]
+    },
+    {
+      "community": 7,
+      "size": 67,
+      "top_keywords": [
+        "historical legends",
+        "Historische Sagen",
+        "Sage, historische",
+        "Franzose",
+        "French people",
+        "Franzosen",
+        "30-/100-year war, blending",
+        "30-/100-jähriger Krieg, Vermischungen"
+      ]
+    },
+    {
+      "community": 1,
+      "size": 67,
+      "top_keywords": [
+        "Wasser",
+        "water",
+        "Volkssage",
+        "Wilde Jagd",
+        "Name",
+        "wild hunt",
+        "See (der)",
+        "ausmessen"
+      ]
+    },
+    {
+      "community": 11,
+      "size": 64,
+      "top_keywords": [
+        "dead",
+        "Tote",
+        "Toter",
+        "weiblich",
+        "Totenmesse",
+        "Requiem",
+        "Mutter",
+        "Wiederkehr"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 41,
+      "top_keywords": [
+        "Gälknoeker",
+        "Geister",
+        "Ghost",
+        "Geist",
+        "Tricks",
+        "Streich",
+        "Streiche",
+        "gut"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 38,
+      "top_keywords": [
+        "Moort",
+        "moort",
+        "Pferd",
+        "Sieve border",
+        "Säbenrand",
+        "Pferd, allg. Abwehr etc.",
+        "Horse, gen. defense etc.",
+        "Taufe"
+      ]
+    },
+    {
+      "community": 10,
+      "size": 38,
+      "top_keywords": [
+        "Zwergensage",
+        "hidden folk",
+        "Zwerge",
+        "Teufel",
+        "Varia II",
+        "devil",
+        "Teufelssage",
+        "Wechselbalg I"
+      ]
+    },
+    {
+      "community": 12,
+      "size": 37,
+      "top_keywords": [
+        "giants",
+        "Riesen",
+        "Riese",
+        "Stein",
+        "werfen",
+        "werfen Steine",
+        "are throwing stones",
+        "Leute"
+      ]
+    },
+    {
+      "community": 8,
+      "size": 35,
+      "top_keywords": [
+        "werewolf",
+        "Werwolf",
+        "Verwandlung, Werwolf",
+        "The ample meal",
+        "Die reichliche Mahlzeit",
+        "Mahlzeit",
+        "Riemen",
+        "Self-transformation into the wolf form by means of magic"
+      ]
+    },
+    {
+      "community": 0,
+      "size": 35,
+      "top_keywords": [
+        "Räuber",
+        "robbers",
+        "hausen",
+        "Orte, wo Räuber hausen",
+        "Ort",
+        "Places, where robbers live",
+        "Viting",
+        "Räubersage"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 23,
+      "top_keywords": [
+        "destruction",
+        "Untergang",
+        "Kirchliches",
+        "Church",
+        "Kirche",
+        "Kloster",
+        "Stadt",
+        "Untergangssage"
+      ]
+    }
+  ],
+  "werewolf_community": 8,
+  "werewolf_members": [
+    {
+      "node_id": "80",
+      "keyword": "werewolf",
+      "degree": 369
+    },
+    {
+      "node_id": "83",
+      "keyword": "Werwolf",
+      "degree": 369
+    },
+    {
+      "node_id": "271",
+      "keyword": "Verwandlung, Werwolf",
+      "degree": 158
+    },
+    {
+      "node_id": "182",
+      "keyword": "The ample meal",
+      "degree": 106
+    },
+    {
+      "node_id": "181",
+      "keyword": "Die reichliche Mahlzeit",
+      "degree": 106
+    },
+    {
+      "node_id": "180",
+      "keyword": "Mahlzeit",
+      "degree": 106
+    },
+    {
+      "node_id": "4435",
+      "keyword": "Riemen",
+      "degree": 54
+    },
+    {
+      "node_id": "270",
+      "keyword": "Self-transformation into the wolf form by means of magic",
+      "degree": 39
+    },
+    {
+      "node_id": "269",
+      "keyword": "Selbstverwandlung in die Wolfsgestalt durch Zaubermittel",
+      "degree": 39
+    },
+    {
+      "node_id": "268",
+      "keyword": "Zaubermittel",
+      "degree": 35
+    },
+    {
+      "node_id": "5331",
+      "keyword": "Viehdieb",
+      "degree": 32
+    },
+    {
+      "node_id": "169",
+      "keyword": "The shot werewolf",
+      "degree": 32
+    },
+    {
+      "node_id": "171",
+      "keyword": "angeschossen",
+      "degree": 32
+    },
+    {
+      "node_id": "170",
+      "keyword": "Der angeschossene Werwolf",
+      "degree": 32
+    },
+    {
+      "node_id": "16136",
+      "keyword": "Wolfsriemen",
+      "degree": 31
+    },
+    {
+      "node_id": "16135",
+      "keyword": "Use of the wolf strap by children",
+      "degree": 31
+    },
+    {
+      "node_id": "16137",
+      "keyword": "Benutzung des Wolfsriemens durch Kinder",
+      "degree": 31
+    },
+    {
+      "node_id": "16150",
+      "keyword": "Fohlen",
+      "degree": 30
+    },
+    {
+      "node_id": "5161",
+      "keyword": "Werwolf fällt einen Menschen an",
+      "degree": 24
+    },
+    {
+      "node_id": "5160",
+      "keyword": "Werewolf attacks persons",
+      "degree": 24
+    },
+    {
+      "node_id": "1087",
+      "keyword": "Werwolf Varia",
+      "degree": 21
+    },
+    {
+      "node_id": "1088",
+      "keyword": "Werewolf varia",
+      "degree": 21
+    },
+    {
+      "node_id": "15746",
+      "keyword": "The werewolf as rustler",
+      "degree": 16
+    },
+    {
+      "node_id": "15747",
+      "keyword": "Der Werwolf als Viehdieb",
+      "degree": 16
+    },
+    {
+      "node_id": "4475",
+      "keyword": "The husband as werewolf",
+      "degree": 16
+    },
+    {
+      "node_id": "4478",
+      "keyword": "Der Ehemann als Werwolf",
+      "degree": 16
+    },
+    {
+      "node_id": "4477",
+      "keyword": "Ehemann",
+      "degree": 16
+    },
+    {
+      "node_id": "6861",
+      "keyword": "lit.",
+      "degree": 16
+    },
+    {
+      "node_id": "5329",
+      "keyword": "Werwolf als Viehdieb",
+      "degree": 16
+    },
+    {
+      "node_id": "5330",
+      "keyword": "Werewolf as rustler",
+      "degree": 16
+    },
+    {
+      "node_id": "1290",
+      "keyword": "Verwandlung in einen Bären",
+      "degree": 15
+    },
+    {
+      "node_id": "1292",
+      "keyword": "Bär",
+      "degree": 15
+    },
+    {
+      "node_id": "1291",
+      "keyword": "Transformation in a bear",
+      "degree": 15
+    },
+    {
+      "node_id": "16171",
+      "keyword": "Verwandlung in einen Hund",
+      "degree": 15
+    },
+    {
+      "node_id": "16170",
+      "keyword": "Transformation in a dog",
+      "degree": 15
+    }
+  ]
+}

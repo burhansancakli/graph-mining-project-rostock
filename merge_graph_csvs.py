@@ -17,7 +17,7 @@ def get_region(filename):
     return match.group(1)
 
 
-def collect_files(input_dir, exclude_cooccurrence=True):
+def collect_files(input_dir, exclude_cooccurrence=True, regions=None):
     files = sorted(glob.glob(os.path.join(input_dir, 'isebel-*.csv')))
     edge_files = []
     node_files = []
@@ -25,6 +25,10 @@ def collect_files(input_dir, exclude_cooccurrence=True):
         base = os.path.basename(path)
         if exclude_cooccurrence and 'co-occurence' in base:
             continue
+        if regions is not None:
+            region = get_region(path)
+            if region not in regions:
+                continue
         if base.endswith('-edges.csv'):
             edge_files.append(path)
         elif base.endswith('-nodes.csv'):
@@ -60,8 +64,10 @@ def merge_csv_files(files, output_file):
 def parse_args():
     parser = argparse.ArgumentParser(description='Merge graph CSV files with region metadata.')
     parser.add_argument('--input-dir', default='.', help='Directory containing the CSV files.')
-    parser.add_argument('--output-dir', default='merged', help='Directory to write merged CSV files.')
+    parser.add_argument('--output-dir', default='.', help='Directory to write merged CSV files.')
     parser.add_argument('--no-cooccur', dest='exclude_cooccurrence', action='store_false', help='Do not exclude co-occurence files.')
+    parser.add_argument('--regions', nargs='+', metavar='REGION',
+                        help='Only merge these regions (e.g. --regions denmark mecklenburg).')
     return parser.parse_args()
 
 
@@ -69,12 +75,13 @@ def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
 
-    edge_files, node_files = collect_files(args.input_dir, exclude_cooccurrence=args.exclude_cooccurrence)
+    regions = set(args.regions) if args.regions else None
+    edge_files, node_files = collect_files(args.input_dir, exclude_cooccurrence=args.exclude_cooccurrence, regions=regions)
     if not edge_files and not node_files:
         raise SystemExit('No CSV files found to merge.')
 
-    edges_output = os.path.join(args.output_dir, 'merged-edges.csv')
-    nodes_output = os.path.join(args.output_dir, 'merged-nodes.csv')
+    edges_output = os.path.join(args.output_dir, 'isebel-merged-edges.csv')
+    nodes_output = os.path.join(args.output_dir, 'isebel-merged-nodes.csv')
 
     edge_count, edge_fields = merge_csv_files(edge_files, edges_output)
     node_count, node_fields = merge_csv_files(node_files, nodes_output)

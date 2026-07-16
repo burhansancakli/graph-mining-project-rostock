@@ -44,7 +44,7 @@ def run_louvain():
         print(f"  Community {comm:2d} (size={len(members):4d}): {', '.join(top_keywords)}")
 
     # ── Werewolf cluster ──────────────────────────────────────────────────────
-    werewolf_terms = {"werwolf", "werewolf", "werwölfe", "verwandlung"}
+    werewolf_terms = {"werwolf", "werewolf", "werwölfe", "verwandlung", "varulv"}
     werewolf_community = None
 
     for node, comm in partition.items():
@@ -66,7 +66,7 @@ def run_louvain():
     pos = __import__("networkx").spring_layout(G, k=0.4, seed=42, weight="weight")
     cmap = colormaps.get_cmap("tab20")
     node_colors = [cmap(partition[n] % 20) for n in G.nodes()]
-    node_sizes = [30 + degree.get(n, 0) * 3 for n in G.nodes()]
+    node_sizes = [30 + degree.get(n, 0) * 1 for n in G.nodes()]
 
     import networkx as nx
     nx.draw_networkx_edges(G, pos, alpha=0.15, width=0.5)

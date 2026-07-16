@@ -1,0 +1,36 @@
+{
+  "algorithm": "Girvan-Newman",
+  "dataset": "iceland",
+  "modularity": 0.000533888261456329,
+  "n_communities": 2,
+  "min_weight": 3,
+  "max_nodes": 300,
+  "graph_nodes": 234,
+  "graph_edges": 2345,
+  "communities": [
+    {
+      "community": 0,
+      "size": 232,
+      "top_keywords": [
+        "priests",
+        "ghosts",
+        "domestic animals",
+        "dreams",
+        "accidents",
+        "elves",
+        "spirits and visions",
+        "going to sea"
+      ]
+    },
+    {
+      "community": 1,
+      "size": 2,
+      "top_keywords": [
+        "dance",
+        "amusements"
+      ]
+    }
+  ],
+  "werewolf_community": null,
+  "werewolf_members": []
+}

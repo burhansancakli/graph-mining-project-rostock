@@ -1,0 +1,186 @@
+{
+  "algorithm": "Louvain",
+  "dataset": "iceland",
+  "modularity": 0.34811205864235745,
+  "n_communities": 7,
+  "min_cooccurrence": 30,
+  "min_component_size": 100,
+  "graph_nodes": 111,
+  "graph_edges": 484,
+  "quality": {
+    "modularity": 0.34811205864235745,
+    "graph_density": 0.079279,
+    "total_weight": 26592,
+    "intra_community_weight": 14373.0,
+    "inter_community_weight": 12219.0,
+    "cut_ratio": 0.4595,
+    "avg_conductance": 0.4031,
+    "avg_internal_density": 18.3739,
+    "size_entropy": 2.7014,
+    "max_size_ratio": 4.6,
+    "communities": [
+      {
+        "community": 0,
+        "size": 18,
+        "internal_weight": 1940.0,
+        "cut_weight": 4049.0,
+        "volume": 7929,
+        "conductance": 0.5107,
+        "internal_density": 12.6797
+      },
+      {
+        "community": 6,
+        "size": 18,
+        "internal_weight": 3029.0,
+        "cut_weight": 4820.0,
+        "volume": 10878,
+        "conductance": 0.4431,
+        "internal_density": 19.7974
+      },
+      {
+        "community": 2,
+        "size": 21,
+        "internal_weight": 3744.0,
+        "cut_weight": 5663.0,
+        "volume": 13151,
+        "conductance": 0.4306,
+        "internal_density": 17.8286
+      },
+      {
+        "community": 1,
+        "size": 23,
+        "internal_weight": 2825.0,
+        "cut_weight": 6704.0,
+        "volume": 12354,
+        "conductance": 0.5427,
+        "internal_density": 11.166
+      },
+      {
+        "community": 4,
+        "size": 14,
+        "internal_weight": 1710.0,
+        "cut_weight": 2082.0,
+        "volume": 5502,
+        "conductance": 0.3784,
+        "internal_density": 18.7912
+      },
+      {
+        "community": 3,
+        "size": 12,
+        "internal_weight": 756.0,
+        "cut_weight": 1027.0,
+        "volume": 2539,
+        "conductance": 0.4045,
+        "internal_density": 11.4545
+      },
+      {
+        "community": 5,
+        "size": 5,
+        "internal_weight": 369.0,
+        "cut_weight": 93.0,
+        "volume": 831,
+        "conductance": 0.1119,
+        "internal_density": 36.9
+      }
+    ]
+  },
+  "communities": [
+    {
+      "community": 1,
+      "size": 23,
+      "top_keywords": [
+        "domestic animals",
+        "illnesses",
+        "journeys",
+        "food and drink",
+        "horses",
+        "weather",
+        "clothing",
+        "wonder tale"
+      ]
+    },
+    {
+      "community": 2,
+      "size": 21,
+      "top_keywords": [
+        "dreams",
+        "accidents",
+        "omens",
+        "going to sea",
+        "boats and ships",
+        "fated",
+        "the newly dead",
+        "fishing"
+      ]
+    },
+    {
+      "community": 0,
+      "size": 18,
+      "top_keywords": [
+        "priests",
+        "magicians",
+        "churches",
+        "magic",
+        "love affairs",
+        "humour",
+        "burial",
+        "graveyards"
+      ]
+    },
+    {
+      "community": 6,
+      "size": 18,
+      "top_keywords": [
+        "ghosts",
+        "spirits and visions",
+        "fetches",
+        "hauntings",
+        "attacking spirits (sent by others)",
+        "named ghosts",
+        "personal hauntings",
+        "housing and buildings"
+      ]
+    },
+    {
+      "community": 4,
+      "size": 14,
+      "top_keywords": [
+        "elves",
+        "belief in elves",
+        "elven settlements",
+        "elf-revenge",
+        "elven love",
+        "enchantments",
+        "elven farming ways",
+        "domestic animals of the elves"
+      ]
+    },
+    {
+      "community": 3,
+      "size": 12,
+      "top_keywords": [
+        "placename",
+        "trolls",
+        "christmas",
+        "people from ancient times",
+        "grave-mounds",
+        "caves",
+        "lakes",
+        "stones"
+      ]
+    },
+    {
+      "community": 5,
+      "size": 5,
+      "top_keywords": [
+        "animals as evil spirits",
+        "sea monsters",
+        "sea beings",
+        "monsters",
+        "beaches"
+      ]
+    }
+  ],
+  "werewolf_community": null,
+  "werewolf_members": []
+}
